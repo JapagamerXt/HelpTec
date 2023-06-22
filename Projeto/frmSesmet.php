@@ -83,8 +83,11 @@
             <div class="row mt-2">
                 <div class="col-sm-12">
                     <button class="form-control">Cadastro</button>
+                </div>
+                <div class="col-sm-12">
                     <button class="form-control">Cadastro</button>
-                    <button class="form-control">Cadastro</button>
+                </div>
+                <div class="col-sm-12">
                     <button class="form-control">Cadastro</button>
                 </div>
             </div>
