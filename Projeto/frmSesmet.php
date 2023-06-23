@@ -69,26 +69,33 @@
                 </div>
 
                 <div class="col-sm-3">
-                        <label for="img">Imagem</label>
-                        <input type="password" nome="txtimg" id="txtimg" placeholder="Imagem" class="form-control">
+                    <label for="img">Imagem</label>
+                    <input type="file" nome="txtimg" id="txtimg" placeholder="Imagem" class="form-control">
                 </div>
 
             </div>
             <div class="row mt-2">
                 <div class="col-sm-12">
                     <label for="OBS">OBS</label>
-                    <textarea name="txtObs" id="txtObs" cols="30" rows="10" class="form-control"></textarea>
+                    <textarea name="txtObs" id="txtObs" cols="15" rows="5" class="form-control"></textarea>
                 </div>                
             </div>
+
             <div class="row mt-2">
-                <div class="col-sm-12">
+                <div class="col-sm-2">
                     <button class="form-control">Cadastro</button>
+                </div> 
+
+                <div class="col-sm-2">
+                    <button class="form-control">Alterar</button>
                 </div>
-                <div class="col-sm-12">
-                    <button class="form-control">Cadastro</button>
+
+                <div class="col-sm-2">
+                    <button class="form-control">Limpar</button>
                 </div>
-                <div class="col-sm-12">
-                    <button class="form-control">Cadastro</button>
+
+                <div class="col-sm-2">
+                    <button class="form-control">Sair</button>
                 </div>
             </div>
 
@@ -96,6 +103,6 @@
     </form>  
 
 
-        <script>"../js/bootstrap.js"</script>
+    <script>"../js/bootstrap.js"</script>
 </body>
 </html>
