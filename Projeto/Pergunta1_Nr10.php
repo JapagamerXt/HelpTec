@@ -1,11 +1,5 @@
 <form action="post" style="text-align:center">
     <div class="container form-control">
-        <div class="row mt-2">
-            <div class="col-sm-2">
-                <input type="texto" nome="txtID" id="txtID" placeholder="ID" class="form-control">
-            </div>
-        </div>
-
         <div class="row mt-4">
             <div class="col-sm-1"></div>
             <div class="col-sm-10 border border-dark" style="height: 150px;">
@@ -13,21 +7,21 @@
             </div>
         </div>
 
-        <div class="row mt-2 " style="margin-left: 100px;">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-3 p-1" style="height: 150px;">
-                <button type="button" class="btn btn-primary btn-lg" style="width: 250px; height:140px">
-                    <H1>SIM</H1>
+        <div class="row mt-2 md-5 ">
+            <div class="col-md-1"></div>
+            <div class="col-md-3 me-5 p-1 ">
+                <button type="button" class="btn btn-primary btn-lg" style="width: 110px; ">
+                    <p style="font-size: 25px;"><b>SIM</b></p>
                 </button>
             </div>
-            <div class="col-sm-3 p-1 " style="height: 150px;">
-                <button type="button" class="btn btn-primary btn-lg" style="width: 250px; height:140px">
-                    <H1>NÃO</H1>
+            <div class="col-md-3 me-5 p-1 ">
+                <button type="button" class="btn btn-primary btn-lg" style="width: 110px; text-align:center">
+                    <p style="font-size: 25px;"><b>NÃO</b></p>
                 </button>
             </div>
-            <div class="col-sm-3  p-1 " style="height: 150px;">
-                <button type="button" class="btn btn-primary btn-lg" style="width: 250px; height:140px">
-                    <H1>N/D</H1>
+            <div class="col-md-3  p-1 ">
+                <button type="button" class="btn btn-primary btn-lg" style="width: 110px; text-align:center">
+                    <p style="font-size: 25px;"><b>N/D</b></p>
                 </button>
             </div>
         </div>
