@@ -23,7 +23,7 @@
                 <input type="texto" nome="txtID" id="txtID" placeholder="ID" class="form-control">
             </div>
         </div>
-
+        <!-- 
         <div class="row">
             <nav aria-label="...">
                 <ul class="pagination">
@@ -44,11 +44,34 @@
                 </ul>
             </nav>
         </div>
+    </div> -->
+
+        <div="container">
+            <!-- adding button and heading to show the digits -->
+            <!--increment() and decrement() functions on button click-->
+            <button onclick="Anterior()">Anterior</button>
+            <h2 id="counting"></h2>
+            <button onclick="Proximo()">Proximo</button>
     </div>
 
-
     <script>
-        "../js/bootstrap.js"
+        //initialising a variable name data
+
+        var cont = 0;
+
+        //printing default value of data that is 0 in h2 tag
+        document.getElementById("counting").innerText = cont;
+
+        //creation of increment function
+        function Anterior() {
+            cont = cont - 1;
+            document.getElementById("counting").innerText = cont;
+        }
+        //creation of decrement function
+        function Proximo() {
+            cont = cont + 1;
+            document.getElementById("counting").innerText = cont;
+        }
     </script>
 </body>
 

@@ -1,4 +1,4 @@
-<form method="get" style="text-align:center">
+<form action="post" style="text-align:center">
     <div class="container form-control">
         <div class="row mt-4">
             <div class="col-sm-1"></div>
