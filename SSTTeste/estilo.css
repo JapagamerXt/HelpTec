@@ -3,4 +3,21 @@
     height: auto;
     width: auto;
     text-align: center;
+    text-align: justify;
+    text-align: center;
+    background-color: #6b9997;
+    color: aliceblue;
+    BACKGROUND-COLOR: BLACK;
+    border-radius: 20px;
+    background-image: url('Imagens/fundo.jpg');
+    opacity: 20%;
+    justify-content: center;
+    margin: center;
+    
+}
+
+.body{
+
+    background-color: black;
+
 }

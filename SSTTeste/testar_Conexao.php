@@ -7,34 +7,38 @@
     <title>Document</title>
 </head>
 <body>
+    
     <?php
     include_once('conexao.php');
 
     try {
         
-        $sql = $conn->query('select * from Funcionario');
+            $sql = $conn->query('select * from nr10');
 
-        if($sql->rowCount() != 0)
-        {   
-            foreach ($sql as $linha) {
-                echo '<pre>';
-                    print_r($linha);
-                echo '</pre>';
-                echo "Nome: ".$linha[1]."<br>";
-                echo "Login: ".$linha['usuario_Usuario']."<br>";
-                echo'<hr>';
-                
+            if($sql->rowCount() != 0)
+            {   
+                foreach ($sql as $linha) {
+                    echo '<pre>';
+                        print_r($linha);
+                    echo '</pre>';
+                    echo "Nome: ".$linha[1]."<br>";
+                    echo "Login: ".$linha['usuario_Usuario']."<br>";
+                    echo'<hr>';
+                    
+                }
             }
-        }
-        else
+            else
+            {
+                echo "Banco de dados limpo!";
+            }
+
+
+        } 
+        
+        catch (PDOException $ex) 
         {
-            echo "Banco de dados limpo!";
+            echo $ex->getMessage();
         }
-
-
-    } catch (PDOException $ex) {
-        echo $ex->getMessage();
-    }
 
     ?>
 </body>
