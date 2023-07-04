@@ -1,6 +1,6 @@
 <?php
 
-$bd = 'SST';
+$bd = 'ProjetoSST';
 $host = 'localhost';
 $user = 'root';
 $pass = '';

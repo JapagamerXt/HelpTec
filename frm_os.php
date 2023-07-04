@@ -7,118 +7,67 @@
     <title>Document</title>
 </head>
 <body>
+    <?php include_once('os_pesquisar.php') ?>
+<form action="" method="post" class="form-control" enctype="multipart/form-data">
     <div class="container">
        <div class="row">
         <div class="col-sm-12 text-center">
             <h1>Ordem de serviço</h1>
         </div>
-   <form action="" method="post" class="form-control">
+    
        <div class="row">
-          <div class="col-xl-4 col-sm-4">
-            <input type="text" name="id_os" class="form-control" placeholder="Id_Ordem de serviço">
+          <div class="col-xl-3 col-sm-3">
+            <input type="text" name="id_os" class="form-control" placeholder="Id_Ordem de serviço" value="<?=$idos?>">
           </div>
-          <div class="col-xl-4 col-sm-4">
-                  <input type="text" name="id_func_os" class="form-control" placeholder="Id_funcionário">
+          <div class="col-sm-1">
+          <button name="btoCadastrar" id="pesquisarfunc" class="btn btn-success" formaction="frm_os.php">&#128269;</button>
           </div>
-          <div class="col-xl-4 col-sm-4">
-            <input type="text" name="id_sesmt_os" class="form-control" placeholder="Id_sesmt">
+          <div class="col-xl-3 col-sm-3">
+                  <input type="text" name="id_func_os" class="form-control" placeholder="Id_funcionário" value="<?=$idfuncos?>">
+          </div>
+          <div class="col-xl-1 col-sm-1">
+          <button name="btoCadastrar" id="pesquisarfunc" class="btn btn-success" onclick="abrirJanelaPopUp()">&#128269;</button>
+          </div>
+          <div class="col-xl-3 col-sm-3">
+            <input type="text" name="id_sesmt_os" class="form-control" placeholder="Id_sesmt" value="<?=$idsesmetos?>">
+          </div>
+          <div class="col-xl-1 col-sm-1">
+          <button name="btoCadastrar" id="btoCadastrar" class="btn btn-success" onclick="abrirJanelaPopUp2()">&#128269;</button>
           </div>
        </div>
        <div class="row mt-1">
-        <div class="col-xl-6 col-sm-6">
-           <input type="text" name="atividade_os" class="form-control" placeholder="Serviço">
+        <div class="col-xl-4 col-sm-4">
+           <input type="text" name="atividade_os" class="form-control" placeholder="Serviço" value="<?=$atividadeos?>">
        </div>
-        <div class="col-xl-6 col-sm-6">
-            <input type="text" name="nr_os" class="form-control" placeholder="NR">
+        <div class="col-xl-4 col-sm-4">
+            <input type="text" name="nr_os" class="form-control" placeholder="NR" value="<?=$idnr?>">
         </div>
+        <div class="col-sm-4">
+                <select name="status_os" id="txtStatus" class="form-control">
+                    <option value="">-- Selecione um Status --</option>
+                    <option value="Ativo">Ativo</option>
+                    <option value="Inativo">Inativo</option>
+                </select>
+            </div>
          <div class="row mt-1">
             <div class="col-xl-12 col-sm-12">
-                <textarea name="desc_os" id="" cols="30" rows="5" placeholder="Descrição do Serviço" class="form-control"></textarea>
-            </div>
-         </div>
-    <div class="row mt-1">
-        <div class="col-sm-12 text-center">
-            <h2>PET</h2>
-        </div>
-
-        <div class="row mt-1">
-            <div class="col-xl-6 col-sm-6">
-            <input type="text" name="local_pet" class="form-control" placeholder="Local">
-            </div>
-            <div class="col-xl-6 col-sm-6">
-            <input type="text" name="espaco_pet" class="form-control" placeholder="Espaço">
-            </div>
-        </div>
-        <div class="row mt-1">
-            <div class="col-sm-4 col-xl-4">
-                <input type="date" name="data_emissao_pet" class="form-control">
-            </div>
-            <div class="col-sm-4 col-xl-4">
-                <input type="date" name="data_termino_pet" class="form-control">
-            </div>
-            <div class="col-sm-4 col-xl-4">
-                <input type="text" name="acao_pet" class="form-control" placeholder="Ação">
-            </div>
-        </div>
-        <div class="row mt-1">
-            <div class="col-sm-4 col-xl-4">
-                <input type="text" name="autorizado_pet" class="form-control" placeholder="Autorizado por:">
-            </div>
-            <div class="col-sm-4 col-xl-4">
-                <input type="text" name="vigia_pet" class="form-control" placeholder="Vigia">
-            </div>
-            <div class="col-sm-4 col-xl-4">
-                <input type="text" name="resgate_pet" class="form-control" placeholder="Regaste">
-            </div>
-        </div>
-    </div>
-            <div class="row mt-1">
-                <div class="col-sm-6 col-xl-6">
-                    <input type="text" name="supervisor_pet" class="form-control" placeholder="Supervisor">
-                </div>
-                <div class="col-sm-6 col-xl-6">
-                    <input type="text" name="titulo_pet" class="form-control" placeholder="Titulo">
-                </div>
-            </div>
-            <div class="row mt-1">
-            <div class="col-xl-12 col-sm-12">
-                <textarea name="desc_os" id="" cols="30" rows="5" placeholder="Descrição PET" class="form-control"></textarea>
+                <textarea name="desc_os" id="" cols="30" rows="5" placeholder="Descrição do Serviço" class="form-control" value=""><?=$descricaoos?></textarea>
             </div>
          </div>
          <div class="row mt-1">
-        <div class="col-sm-12 text-center">
-            <h2>APR</h2>
-        </div>
-        <div class="row mt-1">
-            <div class="col-sm-4 col-xl-4">
-                <input type="text" name="setor_apr" class="form-control" placeholder="Setor">
-            </div>
-            <div class="col-sm-4 col-xl-4">
-                <input type="text" name="risco_apr" class="form-control" placeholder="Risco">
-            </div>
-            <div class="col-sm-4 col-xl-4">
-                <input type="date" name="data_apr" class="form-control">
-            </div>
-            <div class="row mt-1">
             <div class="col-xl-12 col-sm-12">
-                <textarea name="equipamento_apr" id="" cols="30" rows="4" placeholder="Equipamentos Utilizados" class="form-control"></textarea>
+                <textarea name="obs_os" id="" cols="30" rows="5" placeholder="Observações da Ordem de Serviço" class="form-control" value=""><?=$obsapros?></textarea>
             </div>
-        </div>
-        <div class="row mt-1">
+         </div>
+         <div class="row mt-2 text-center">
             <div class="col-xl-12 col-sm-12">
-                <textarea name="servico_apr" id="" cols="30" rows="5" placeholder="Serviços a Executar" class="form-control"></textarea>
-            </div>
-        <div class="row mt-1 text-center">
-            <div class="col-xl-12 col-sm-12">
-                <button type="button" class="btn btn-success">Cadastrar</button>
+            <button name="btoCadastrar" id="btoCadastrar" class="btn btn-success" formaction="os_cadastrar.php">Cadastrar</button>
                 <button type="button" class="btn btn-success">Alterar</button>
                 <button type="button" class="btn btn-success">Excluir</button>
             </div>
-   </form>
-
-       </div>
-
     </div>
-    
+            
+</form>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
