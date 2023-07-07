@@ -697,9 +697,32 @@
           </div>
       <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
-            <button class="btn btn-success" id="btn_proximo9" >Finalizar</button>
+            <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta36()" >Próximo</button>
           </div>
       </div>
+      <div class="row" id="per36">
+          <div class="col-sm-12 text-center">
+            <h2>Observações</h2>
+          </div>
+        <div class="col-sm-12 text-center">
+          <input type="text" id="resp_per36" class="form-control">
+        </div>
+          <div class="col-sm-12 mt-1 text-center">
+            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta37()" >Próximo</button>
+          </div>
+      </div>   
+          <div class="row" id="per37">
+          <div class="col-sm-12 text-center">
+            <h2>Status</h2>
+          </div>
+        <div class="col-sm-12 text-center">
+          <input type="text" id="resp_per37" class="form-control">
+        </div>
+          <div class="col-sm-12 mt-1 text-center">
+            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_proximo9" formaction="pet_cadastrar.php" >Finalizar</button>
+          </div>
   </div>
 </form>
 
@@ -739,7 +762,8 @@
   let p33 = document.getElementById("per33");
   let p34 = document.getElementById("per34");
   let p35 = document.getElementById("per35");
-
+  let p36 = document.getElementById("per36");
+  let p37 = document.getElementById("per37");
   function Esconder()
   {
      p1.style.display = "block";
@@ -777,6 +801,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
 
   }
 
@@ -817,6 +843,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta3()
   {
@@ -855,6 +883,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta4()
   {
@@ -893,6 +923,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta5()
   {
@@ -931,6 +963,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta6()
   {
@@ -969,6 +1003,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta7()
   {
@@ -1007,6 +1043,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta8()
   {
@@ -1045,6 +1083,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta9()
   {
@@ -1083,6 +1123,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta10(){
     p1.style.display = "none";
@@ -1120,6 +1162,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta11(){
     p1.style.display = "none";
@@ -1157,6 +1201,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta12(){
     p1.style.display = "none";
@@ -1194,6 +1240,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta13(){
     p1.style.display = "none";
@@ -1231,6 +1279,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta14(){
     p1.style.display = "none";
@@ -1268,6 +1318,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta15(){
     p1.style.display = "none";
@@ -1305,6 +1357,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta16(){
     p1.style.display = "none";
@@ -1342,6 +1396,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta17(){
     p1.style.display = "none";
@@ -1379,6 +1435,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta18(){
     p1.style.display = "none";
@@ -1416,6 +1474,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta19(){
     p1.style.display = "none";
@@ -1453,6 +1513,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta20(){
     p1.style.display = "none";
@@ -1490,6 +1552,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta21(){
     p1.style.display = "none";
@@ -1527,6 +1591,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta22(){
     p1.style.display = "none";
@@ -1564,6 +1630,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta23(){
     p1.style.display = "none";
@@ -1601,6 +1669,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta24(){
     p1.style.display = "none";
@@ -1638,6 +1708,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta25(){
     p1.style.display = "none";
@@ -1675,6 +1747,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta26(){
     p1.style.display = "none";
@@ -1712,6 +1786,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta27(){
     p1.style.display = "none";
@@ -1749,6 +1825,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta28(){
     p1.style.display = "none";
@@ -1786,6 +1864,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta29(){
     p1.style.display = "none";
@@ -1823,6 +1903,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta30(){
     p1.style.display = "none";
@@ -1860,6 +1942,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta31(){
     p1.style.display = "none";
@@ -1897,6 +1981,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta32(){
     p1.style.display = "none";
@@ -1934,6 +2020,8 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta33(){
     p1.style.display = "none";
@@ -1971,6 +2059,8 @@
      p33.style.display = "block";
      p34.style.display = "none";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta34(){
     p1.style.display = "none";
@@ -2008,6 +2098,8 @@
      p33.style.display = "none";
      p34.style.display = "block";
      p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "none";
   }
   function IrPergunta35(){
     p1.style.display = "none";
@@ -2045,6 +2137,84 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "block";
+  }
+  function IrPergunta36(){
+    p1.style.display = "none";
+    p2.style.display = "none";
+    p3.style.display = "none";
+    p4.style.display = "none";
+    p5.style.display = "none";
+    p6.style.display = "none";
+    p7.style.display = "none";
+    p8.style.display = "none";
+    p9.style.display = "nome";
+    p10.style.display = "none";
+     p11.style.display = "none";
+     p12.style.display = "none";
+     p13.style.display = "none";
+     p14.style.display = "none";
+     p15.style.display = "none";
+     p16.style.display = "none";
+     p17.style.display = "none";
+     p18.style.display = "none";
+     p19.style.display = "none";
+     p20.style.display = "none";
+     p21.style.display = "none";
+     p22.style.display = "none";
+     p23.style.display = "none";
+     p24.style.display = "none";
+     p25.style.display = "none";
+     p26.style.display = "none";
+     p27.style.display = "none";
+     p28.style.display = "none";
+     p29.style.display = "none";
+     p30.style.display = "none";
+     p31.style.display = "none";
+     p32.style.display = "none";
+     p33.style.display = "none";
+     p34.style.display = "none";
+     p35.style.display = "none";
+     p36.style.display = "block";
+     p37.style.display = "none";
+  }
+  function IrPergunta37(){
+    p1.style.display = "none";
+    p2.style.display = "none";
+    p3.style.display = "none";
+    p4.style.display = "none";
+    p5.style.display = "none";
+    p6.style.display = "none";
+    p7.style.display = "none";
+    p8.style.display = "none";
+    p9.style.display = "nome";
+    p10.style.display = "none";
+     p11.style.display = "none";
+     p12.style.display = "none";
+     p13.style.display = "none";
+     p14.style.display = "none";
+     p15.style.display = "none";
+     p16.style.display = "none";
+     p17.style.display = "none";
+     p18.style.display = "none";
+     p19.style.display = "none";
+     p20.style.display = "none";
+     p21.style.display = "none";
+     p22.style.display = "none";
+     p23.style.display = "none";
+     p24.style.display = "none";
+     p25.style.display = "none";
+     p26.style.display = "none";
+     p27.style.display = "none";
+     p28.style.display = "none";
+     p29.style.display = "none";
+     p30.style.display = "none";
+     p31.style.display = "none";
+     p32.style.display = "none";
+     p33.style.display = "none";
+     p34.style.display = "none";
+     p35.style.display = "none";
+     p36.style.display = "none";
+     p37.style.display = "block";
   }
 </script>
 
