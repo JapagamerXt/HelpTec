@@ -10,14 +10,14 @@
 </head>
 <body onload="Esconder()">
     <h1 id="pet">PET</h1>
-    <form action="" method="post" class="form-control border-0" onsubmit="return false;">
+    <form action="" method="post" class="form-control border-0" onsubmit="return false;" id="form_pet_cadastrar">
      <div class="container">
        <div class="row" id="per01">
           <div class="col-sm-12 text-center">
             <h2>Nome da Empresa:</h2>
           </div>
           <div class="col-sm-12">
-          <input type="text" id="resp_per01" class="form-control">
+          <input type="text" name="resp_per01" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -30,7 +30,7 @@
             <h2>Local espaço confinado:</h2>
           </div>
           <div class="col-sm-12">
-          <input type="text" id="resp_per02" class="form-control">
+          <input type="text" name="resp_per02" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -43,7 +43,7 @@
             <h2>N° Espaço confinado:</h2>
           </div>
         <div class="col-sm-12 text-center">
-        <input type="text" id="resp_per03" class="form-control">
+        <input type="text" name="resp_per03" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -55,7 +55,7 @@
             <h2>Data e Horário de Emissão</h2>
           </div>
           <div class="col-sm-12">
-            <input type="date" class="form-control" id="resp_per04">
+            <input type="date" class="form-control" name="resp_per04">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -68,7 +68,7 @@
             <h2>Data e Horário de Término</h2>
           </div>
           <div class="col-sm-12">
-          <input type="date" class="form-control" id="resp_per05">
+          <input type="date" class="form-control" name="resp_per05">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -81,7 +81,7 @@
             <h2>Trabalho a ser realizado:</h2>
           </div>
           <div class="col-sm-12 text-center">
-          <input type="text" id="resp_per06" class="form-control">
+          <input type="text" name="resp_per06" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -93,7 +93,7 @@
             <h2>Trabalhadores Autorizados</h2>
           </div>
           <div class="col-sm-12">
-            <textarea name="" id="resp_per07" cols="30" rows="05" placeholder="Teste" class="form-control"></textarea>
+            <textarea  name="resp_per07" cols="30" rows="05" placeholder="Teste" class="form-control"></textarea>
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -106,7 +106,7 @@
             <h2>Vigia</h2>
           </div>
           <div class="col-sm-12">
-          <input type="text" id="resp_per08" class="form-control">
+          <input type="text" name="resp_per08" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -119,7 +119,7 @@
             <h2>Equipe de Resgate</h2>
           </div>
         <div class="col-sm-12 text-center">
-          <input type="text" id="resp_per09" class="form-control">
+          <input type="text" name="resp_per09" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -131,7 +131,7 @@
             <h2>Supervisor de entrada</h2>
           </div>
         <div class="col-sm-12 text-center">
-          <input type="text" id="resp_per10" class="form-control">
+          <input type="text" name="resp_per10" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -143,11 +143,11 @@
             <h2>Isolamento</h2>
           </div>
         <div class="col-sm-12 text-center">
-        <input type="radio" name="select" id="resp_per11" value="sim" class="form-check-input">
+        <input type="radio"  name="resp_per11" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per11">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per11" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per11" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per11">
             Não
           </label>
@@ -155,6 +155,7 @@
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta12()" >Próximo</button>
+          
           </div>
      </div>
      <div class="row" id="per12">
@@ -162,19 +163,19 @@
               <h2>Teste Inicial da Atmosfera</h2>
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" id="resp_per12_oxigenio" class="form-control" placeholder="Oxigênio">
+            <input type="text" name="resp_per12_oxigenio" class="form-control" placeholder="Oxigênio">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" id="resp_per12_inflamaveis" class="form-control" placeholder="Inflamáveis">
+            <input type="text" name="resp_per12_inflamaveis" class="form-control" placeholder="Inflamáveis">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" id="resp_per12_gases" class="form-control" placeholder="Gases/Vapores/Tóxico">
+            <input type="text" name="resp_per12_gases" class="form-control" placeholder="Gases/Vapores/Tóxico">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" id="resp_per12_poeiras" class="form-control" placeholder="Poeiras/fumos/névoas">
+            <input type="text" name="resp_per12_poeiras" class="form-control" placeholder="Poeiras/fumos/névoas">
             </div>
             <div class="col-sm-12 text-center mt-1">
-            <input type="text" id="resp_per12_nome" class="form-control" placeholder="Nome legível e Assinatura do Supervisor dos testes">
+            <input type="text" name="resp_per12_nome" class="form-control" placeholder="Nome legível e Assinatura do Supervisor dos testes">
             </div>
             <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -186,15 +187,15 @@
               <h2>Bloqueios, travamentos e etiquetagem</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per13" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per13" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per13">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per13" value="Não" class="form-check-input">
+          <input type="radio" name="resp_per13" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per13">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per13" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per13" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per13">
             N/A
           </label>
@@ -209,15 +210,15 @@
               <h2>Purga e ou Lavagem</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per14" value="sim" class="form-check-input">
+          <input type="radio" name="resp_per14" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per14">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per14" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per14" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per14">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per14" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per14" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per14">
             N/A
           </label>
@@ -232,15 +233,15 @@
               <h2>Ventilação/Exaustão</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per15" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per15" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per15">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per15" value="Não" class="form-check-input">
+          <input type="radio" name="resp_per15" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per15">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per15" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per15" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per15">
             N/A
           </label>
@@ -255,19 +256,19 @@
               <h2>Teste após ventilação e isolamento</h2>
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" id="resp_per16_oxigenio" class="form-control" placeholder="Oxigênio">
+            <input type="text" name="resp_per16_oxigenio" class="form-control" placeholder="Oxigênio">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" id="resp_per16_inflamaveis" class="form-control" placeholder="Inflamáveis">
+            <input type="text" name="resp_per16_inflamaveis" class="form-control" placeholder="Inflamáveis">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" id="resp_per16_gases" class="form-control" placeholder="Gases/Vapores/Tóxico">
+            <input type="text" name="resp_per16_gases" class="form-control" placeholder="Gases/Vapores/Tóxico">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" id="resp_per16_poeiras" class="form-control" placeholder="Poeiras/fumos/névoas">
+            <input type="text" name="resp_per16_poeiras" class="form-control" placeholder="Poeiras/fumos/névoas">
             </div>
             <div class="col-sm-12 text-center mt-1">
-            <input type="text" id="resp_per16_supervisor" class="form-control" placeholder="Nome legível e Assinatura do Supervisor dos testes">
+            <input type="text" name="resp_per16_nome" class="form-control" placeholder="Nome legível e Assinatura do Supervisor dos testes">
             </div>
             <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -279,16 +280,16 @@
               <h2>Iluminação Geral</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per17" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per17" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per17">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per17" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per17" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per15">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per17" value="Não" class="form-check-input">
-          <label class="form-check-label" for="resp_per17">
+          <input type="radio"  name="resp_per17" value="Não" class="form-check-input">
+          <label class="form-check-label4" for="resp_per17">
             N/A
           </label>
           </div>
@@ -302,15 +303,15 @@
               <h2>Procedimento de comunicação</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per18" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per18" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per18">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per18" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per18" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per18">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per18" value="Não" class="form-check-input">
+          <input type="radio" name="resp_per18" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per18">
             N/A
           </label>
@@ -325,15 +326,15 @@
               <h2>Procedimento de resgate</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per19" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per19" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per19">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per19" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per19" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per19">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per19" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per19" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per19">
             N/A
           </label>
@@ -348,15 +349,15 @@
               <h2>Procedimento e proteção de movimento vertical:</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per20" value="sim" class="form-check-input">
+          <input type="radio" name="resp_per20" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per20">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per20" value="Não" class="form-check-input">
+          <input type="radio" name="resp_per20" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per20">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per20" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per20" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per20">
             N/A
           </label>
@@ -371,15 +372,15 @@
               <h2>Treinamento para  todos os colaborades. É atual?</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per21" value="sim" class="form-check-input">
+          <input type="radio" name="resp_per21" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per21">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per21" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per21" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per21">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per21" value="N/A" class="form-check-input">
+          <input type="radio" name="resp_per21" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per21">
             N/A
           </label>
@@ -394,7 +395,7 @@
             <h2>Equipamentos</h2>
           </div>
         <div class="col-sm-12 text-center">
-          <input type="text" id="resp_per22" class="form-control">
+          <input type="text" name="resp_per22" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -406,15 +407,15 @@
               <h2>Equipamento de monitoramento contínuo de gases aprovados</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per23" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per23" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per23">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per23" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per23" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per23">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per23" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per23" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per23">
             N/A
           </label>
@@ -429,15 +430,15 @@
               <h2>Lanternas</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per24" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per24" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per24">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per24" value="Não" class="form-check-input">
+          <input type="radio" name="resp_per24" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per24">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per23" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per23" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per24">
             N/A
           </label>
@@ -452,15 +453,15 @@
               <h2>Roupas de Proteção</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per25" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per25" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per25">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per25" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per25" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per25">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per25" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per25" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per25">
             N/A
           </label>
@@ -475,15 +476,15 @@
               <h2>Extintores de Incendio</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per26" value="sim" class="form-check-input">
+          <input type="radio" name="resp_per26" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per26">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per26" value="Não" class="form-check-input">
+          <input type="radio" name="resp_per26" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per26">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per26" value="N/A" class="form-check-input">
+          <input type="radio" name="resp_per26" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per26">
             N/A
           </label>
@@ -498,15 +499,15 @@
               <h2>Capacetes, botas Luvas</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per27" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per27" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per27">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per27" value="Não" class="form-check-input">
+          <input type="radio" name="resp_per27" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per27">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per27" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per27" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per27">
             N/A
           </label>
@@ -521,15 +522,15 @@
               <h2>Equipamentos de proteção respiratória</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per28" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per28" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per28">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per28" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per28" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per28">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per28" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per28" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per28">
             N/A
           </label>
@@ -544,15 +545,15 @@
               <h2>Cinturão de Segurança</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per29" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per29" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per29">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per29" value="Não" class="form-check-input">
+          <input type="radio" name="resp_per29" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per29">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per29" value="N/A" class="form-check-input">
+          <input type="radio" name="resp_per29" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per29">
             N/A
           </label>
@@ -567,15 +568,15 @@
               <h2>Cinturão de segurança para equipe de resgate</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per30" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per30" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per30">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per30" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per30" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per30">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per30" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per30" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per30">
             N/A
           </label>
@@ -590,15 +591,15 @@
               <h2>Escada</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per31" value="sim" class="form-check-input">
+          <input type="radio" name="resp_per31" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per23">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per31" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per31" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per31">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per31" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per31" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per31">
             N/A
           </label>
@@ -613,15 +614,15 @@
               <h2>Equipamento de movimentação</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per32" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per32" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per32">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per32" value="Não" class="form-check-input">
+          <input type="radio" name="resp_per32" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per32">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per32" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per32" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per32">
             N/A
           </label>
@@ -636,15 +637,15 @@
               <h2>Equipamento de comunicação eletrônica aprovados e certificados</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per33" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per33" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per33">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per33" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per33" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per33">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per33" value="N/A" class="form-check-input">
+          <input type="radio" name="resp_per33" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per33">
             N/A
           </label>
@@ -659,15 +660,15 @@
               <h2>Equipamento de proteção respiratória autônomo ou sistema de ar com cilindro</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per34" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per34" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per34">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per34" value="Não" class="form-check-input">
+          <input type="radio" name="resp_per34" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per34">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per34" value="N/A" class="form-check-input">
+          <input type="radio" name="resp_per34" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per34">
             N/A
           </label>
@@ -682,15 +683,15 @@
               <h2>Equipamentos eletricos e eletrônicos aprovados e certificados</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="select" id="resp_per35" value="sim" class="form-check-input">
+          <input type="radio"  name="resp_per35" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per35">
            Sim
           </label>
-          <input type="radio" name="select" id="resp_per35" value="Não" class="form-check-input">
+          <input type="radio"  name="resp_per35" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per35">
             Não
           </label>
-          <input type="radio" name="select" id="resp_per35" value="N/A" class="form-check-input">
+          <input type="radio"  name="resp_per35" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per35">
             N/A
           </label>
@@ -705,7 +706,7 @@
             <h2>Observações</h2>
           </div>
         <div class="col-sm-12 text-center">
-          <input type="text" id="resp_per36" class="form-control">
+          <input type="text" name="resp_per36" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -717,11 +718,11 @@
             <h2>Status</h2>
           </div>
         <div class="col-sm-12 text-center">
-          <input type="text" id="resp_per37" class="form-control">
+          <input type="text" name="resp_per37" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
-            <button class="btn btn-success" id="btn_proximo9" formaction="pet_cadastrar.php" >Finalizar</button>
+            <button class="btn btn-success" id="btn_proximo9" onclick="cadastrar()" >Finalizar</button>
           </div>
   </div>
 </form>
@@ -2215,6 +2216,11 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "block";
+  }
+  function cadastrar(){
+    let form = document.getElementById("form_pet_cadastrar");
+    form.action = "pet_cadastrar.php";
+    form.submit();
   }
 </script>
 
