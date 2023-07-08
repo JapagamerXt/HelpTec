@@ -329,12 +329,40 @@
                     <div class="col-sm-6">
                         <button onclick="Per9()" class="form-control">Anterior</button>
                     </div>
-                    <div class="col-sm-6">
+                    <!-- <div class="col-sm-6">
                         <button class="form-control" onclick="">Proximo</button>
+                    </div> -->
+
+                    <div class="row">
+                        <div class="col-sm-6 mt-2">
+                            <input type="text" id="txtNomeSuper" name="txtNomeSuper" placeholder="Nome do responsavel">
+                        </div>
+                        <div class="col-sm-6 mt-2">
+                            <p><b>Esta apto a continuar com as atividades ?</b></p>
+                            <div class="form-check">
+
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    SIM
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    NÃO
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <button onclick="" class="form-control btn-outline-success bto">Enviar</button>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
-        </div>
     </form>
 
 </body>
