@@ -27,18 +27,43 @@
                     senha_Sesmet,
                     obs_Sesmet,
                     status_Sesmet
-
-
                 )
+                values
+                (
+                    :nome_Sesmet,
+                    :nascimento_Sesmet,
+                    :genero_Sesmet,
+                    :cpf_Sesmet,
+                    :login_Sesmet,
+                    :img_Sesmet,
+                    :senha_Sesmet,
+                    :obs_Sesmet,
+                    :status_Sesmet
+                )            
+            ");
+            $sql->execute(Array(
+                ':nome_Sesmet'=> $nome,
+                ':nascimento_Sesmet'=>$nascimento,
+                ':genero_Sesmet'=> $genero,
+                ':cpf_Sesmet'=> $cpf,
+                ':login_Sesmet'=> $login,
+                ':img_Sesmet'=> $imagem,
+                ':senha_Sesmet'=> $senha,
+                ':obs_Sesmet'=> $Obs, 
+                ':status_Sesmet'=> $status,
 
+
+            ));
+            if ($sql->rowCount()>=1)
+            {
+                echo'<script>alert("Cadastro realizado com sucesso")</script>';
+                header('Location:frmSesmet.php');
+              
+            }
             
-            ")
-            
-        } catch (\Throwable $th) {
-            //throw $th;
+        } catch (PDOException $ex) 
+        {
+            echo $ex->getMessage();
         }
     }
-
-
-
 ?>
