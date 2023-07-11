@@ -338,7 +338,7 @@
                         </label>
                     </div>
                 </div>               
-                <hr>
+                <hr class="mt-2">
                 <div class="row mt-3">
                     <div class="col-sm-6 mt-2">
                         <input type="text" id="txtNomeSuper" name="txtNomeSuper" placeholder="Nome do responsavel">
@@ -361,7 +361,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-1">
-                            <button onclick="Per10()" class="form-control btn-outline-danger bto">Voltar</button>
+                            <button onclick="Per9()" class="form-control btn-outline-danger bto">Voltar</button>
                         </div>
                         <div class="col-sm-1">
                             <button onclick="" class="form-control btn-outline-success bto">Enviar</button>
