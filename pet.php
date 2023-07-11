@@ -17,7 +17,7 @@
             <h2>Nome da Empresa:</h2>
           </div>
           <div class="col-sm-12">
-          <input type="text" name="resp_per01" class="form-control">
+          <input type="text" id="resp_per01" name="resp_per01" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -30,7 +30,7 @@
             <h2>Local espaço confinado:</h2>
           </div>
           <div class="col-sm-12">
-          <input type="text" name="resp_per02" class="form-control">
+          <input type="text" id="resp_per02" name="resp_per02" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -43,7 +43,7 @@
             <h2>N° Espaço confinado:</h2>
           </div>
         <div class="col-sm-12 text-center">
-        <input type="text" name="resp_per03" class="form-control">
+        <input type="text" id="resp_per03" name="resp_per03" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -55,7 +55,7 @@
             <h2>Data e Horário de Emissão</h2>
           </div>
           <div class="col-sm-12">
-            <input type="date" class="form-control" name="resp_per04">
+            <input type="date" class="form-control" id="resp_per04" name="resp_per04">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -68,7 +68,7 @@
             <h2>Data e Horário de Término</h2>
           </div>
           <div class="col-sm-12">
-          <input type="date" class="form-control" name="resp_per05">
+          <input type="date" class="form-control" id="resp_per05" name="resp_per05">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -81,7 +81,7 @@
             <h2>Trabalho a ser realizado:</h2>
           </div>
           <div class="col-sm-12 text-center">
-          <input type="text" name="resp_per06" class="form-control">
+          <input type="text" id="resp_per06" name="resp_per06" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -93,7 +93,7 @@
             <h2>Trabalhadores Autorizados</h2>
           </div>
           <div class="col-sm-12">
-            <textarea  name="resp_per07" cols="30" rows="05" placeholder="Teste" class="form-control"></textarea>
+            <textarea  id="resp_per07" name="resp_per07" cols="30" rows="05" placeholder="Teste" class="form-control"></textarea>
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -106,7 +106,7 @@
             <h2>Vigia</h2>
           </div>
           <div class="col-sm-12">
-          <input type="text" name="resp_per08" class="form-control">
+          <input type="text" id="resp_per08" name="resp_per08" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -119,7 +119,7 @@
             <h2>Equipe de Resgate</h2>
           </div>
         <div class="col-sm-12 text-center">
-          <input type="text" name="resp_per09" class="form-control">
+          <input type="text" id="resp_per09" name="resp_per09" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -131,7 +131,7 @@
             <h2>Supervisor de entrada</h2>
           </div>
         <div class="col-sm-12 text-center">
-          <input type="text" name="resp_per10" class="form-control">
+          <input type="text" id="resp_per10" name="resp_per10" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -143,12 +143,12 @@
             <h2>Isolamento</h2>
           </div>
         <div class="col-sm-12 text-center">
-        <input type="radio"  name="resp_per11" value="sim" class="form-check-input">
-          <label class="form-check-label" for="resp_per11">
+        <input type="radio" id="resp_per11A"  name="resp_per11" value="sim" class="form-check-input">
+          <label class="form-check-label" for="resp_per11A">
            Sim
           </label>
-          <input type="radio"  name="resp_per11" value="Não" class="form-check-input">
-          <label class="form-check-label" for="resp_per11">
+          <input type="radio" id="resp_per11B"  name="resp_per11" value="Não" class="form-check-input">
+          <label class="form-check-label" for="resp_per11B">
             Não
           </label>
         </div>
@@ -163,19 +163,19 @@
               <h2>Teste Inicial da Atmosfera</h2>
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" name="resp_per12_oxigenio" class="form-control" placeholder="Oxigênio">
+            <input type="text" id="resp_per12_oxigenio" name="resp_per12_oxigenio" class="form-control" placeholder="Oxigênio">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" name="resp_per12_inflamaveis" class="form-control" placeholder="Inflamáveis">
+            <input type="text" id="resp_per12_inflamaveis" name="resp_per12_inflamaveis" class="form-control" placeholder="Inflamáveis">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" name="resp_per12_gases" class="form-control" placeholder="Gases/Vapores/Tóxico">
+            <input type="text" id="resp_per12_gases" name="resp_per12_gases" class="form-control" placeholder="Gases/Vapores/Tóxico">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" name="resp_per12_poeiras" class="form-control" placeholder="Poeiras/fumos/névoas">
+            <input type="text" id="resp_per12_poeiras" name="resp_per12_poeiras" class="form-control" placeholder="Poeiras/fumos/névoas">
             </div>
             <div class="col-sm-12 text-center mt-1">
-            <input type="text" name="resp_per12_nome" class="form-control" placeholder="Nome legível e Assinatura do Supervisor dos testes">
+            <input type="text" id="resp_per12_nome" name="resp_per12_nome" class="form-control" placeholder="Nome legível e Assinatura do Supervisor dos testes">
             </div>
             <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -187,15 +187,15 @@
               <h2>Bloqueios, travamentos e etiquetagem</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per13" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per13"   name="resp_per13" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per13">
            Sim
           </label>
-          <input type="radio" name="resp_per13" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per13" name="resp_per13" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per13">
             Não
           </label>
-          <input type="radio"  name="resp_per13" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per13"  name="resp_per13" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per13">
             N/A
           </label>
@@ -210,15 +210,15 @@
               <h2>Purga e ou Lavagem</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="resp_per14" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per14" name="resp_per14" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per14">
            Sim
           </label>
-          <input type="radio"  name="resp_per14" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per14" name="resp_per14" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per14">
             Não
           </label>
-          <input type="radio"  name="resp_per14" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per14"  name="resp_per14" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per14">
             N/A
           </label>
@@ -233,15 +233,15 @@
               <h2>Ventilação/Exaustão</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per15" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per15"  name="resp_per15" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per15">
            Sim
           </label>
-          <input type="radio" name="resp_per15" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per15" name="resp_per15" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per15">
             Não
           </label>
-          <input type="radio"  name="resp_per15" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per15"  name="resp_per15" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per15">
             N/A
           </label>
@@ -256,19 +256,19 @@
               <h2>Teste após ventilação e isolamento</h2>
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" name="resp_per16_oxigenio" class="form-control" placeholder="Oxigênio">
+            <input type="text" id="resp_per16_oxigenio" name="resp_per16_oxigenio" class="form-control" placeholder="Oxigênio">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" name="resp_per16_inflamaveis" class="form-control" placeholder="Inflamáveis">
+            <input type="text" id="resp_per16_inflamaveis"  name="resp_per16_inflamaveis" class="form-control" placeholder="Inflamáveis">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" name="resp_per16_gases" class="form-control" placeholder="Gases/Vapores/Tóxico">
+            <input type="text" id="resp_per16_gases" name="resp_per16_gases" class="form-control" placeholder="Gases/Vapores/Tóxico">
             </div>
             <div class="col-sm-3 text-center">
-            <input type="text" name="resp_per16_poeiras" class="form-control" placeholder="Poeiras/fumos/névoas">
+            <input type="text" id="resp_per16_poeiras" name="resp_per16_poeiras" class="form-control" placeholder="Poeiras/fumos/névoas">
             </div>
             <div class="col-sm-12 text-center mt-1">
-            <input type="text" name="resp_per16_nome" class="form-control" placeholder="Nome legível e Assinatura do Supervisor dos testes">
+            <input type="text" id="resp_per16_nome" name="resp_per16_nome" class="form-control" placeholder="Nome legível e Assinatura do Supervisor dos testes">
             </div>
             <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -280,16 +280,16 @@
               <h2>Iluminação Geral</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per17" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per17" name="resp_per17" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per17">
            Sim
           </label>
-          <input type="radio"  name="resp_per17" value="Não" class="form-check-input">
-          <label class="form-check-label" for="resp_per15">
+          <input type="radio" id="resp_per17"  name="resp_per17" value="Não" class="form-check-input">
+          <label class="form-check-label" for="resp_per17">
             Não
           </label>
-          <input type="radio"  name="resp_per17" value="Não" class="form-check-input">
-          <label class="form-check-label4" for="resp_per17">
+          <input type="radio" id="resp_per17"  name="resp_per17" value="N/A" class="form-check-input">
+          <label class="form-check-label" for="resp_per17">
             N/A
           </label>
           </div>
@@ -303,15 +303,15 @@
               <h2>Procedimento de comunicação</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per18" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per18"  name="resp_per18" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per18">
            Sim
           </label>
-          <input type="radio"  name="resp_per18" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per18"  name="resp_per18" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per18">
             Não
           </label>
-          <input type="radio" name="resp_per18" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per18" name="resp_per18" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per18">
             N/A
           </label>
@@ -326,15 +326,15 @@
               <h2>Procedimento de resgate</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per19" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per19"  name="resp_per19" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per19">
            Sim
           </label>
-          <input type="radio"  name="resp_per19" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per19" name="resp_per19" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per19">
             Não
           </label>
-          <input type="radio"  name="resp_per19" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per19" name="resp_per19" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per19">
             N/A
           </label>
@@ -349,15 +349,15 @@
               <h2>Procedimento e proteção de movimento vertical:</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="resp_per20" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per20" name="resp_per20" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per20">
            Sim
           </label>
-          <input type="radio" name="resp_per20" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per20" name="resp_per20" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per20">
             Não
           </label>
-          <input type="radio"  name="resp_per20" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per20" name="resp_per20" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per20">
             N/A
           </label>
@@ -372,15 +372,15 @@
               <h2>Treinamento para  todos os colaborades. É atual?</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="resp_per21" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per21" name="resp_per21" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per21">
            Sim
           </label>
-          <input type="radio"  name="resp_per21" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per21" name="resp_per21" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per21">
             Não
           </label>
-          <input type="radio" name="resp_per21" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per21" name="resp_per21" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per21">
             N/A
           </label>
@@ -395,7 +395,7 @@
             <h2>Equipamentos</h2>
           </div>
         <div class="col-sm-12 text-center">
-          <input type="text" name="resp_per22" class="form-control">
+          <input type="text" id="resp_per22" name="resp_per22" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -407,15 +407,15 @@
               <h2>Equipamento de monitoramento contínuo de gases aprovados</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per23" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per23"  name="resp_per23" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per23">
            Sim
           </label>
-          <input type="radio"  name="resp_per23" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per23"  name="resp_per23" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per23">
             Não
           </label>
-          <input type="radio"  name="resp_per23" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per23"  name="resp_per23" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per23">
             N/A
           </label>
@@ -430,15 +430,15 @@
               <h2>Lanternas</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per24" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per24"  name="resp_per24" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per24">
            Sim
           </label>
-          <input type="radio" name="resp_per24" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per24"  name="resp_per24" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per24">
             Não
           </label>
-          <input type="radio"  name="resp_per23" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per24"  name="resp_per24" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per24">
             N/A
           </label>
@@ -453,15 +453,15 @@
               <h2>Roupas de Proteção</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per25" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per25"  name="resp_per25" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per25">
            Sim
           </label>
-          <input type="radio"  name="resp_per25" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per25" name="resp_per25" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per25">
             Não
           </label>
-          <input type="radio"  name="resp_per25" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per25" name="resp_per25" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per25">
             N/A
           </label>
@@ -476,15 +476,15 @@
               <h2>Extintores de Incendio</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="resp_per26" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per26" name="resp_per26" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per26">
            Sim
           </label>
-          <input type="radio" name="resp_per26" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per26" name="resp_per26" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per26">
             Não
           </label>
-          <input type="radio" name="resp_per26" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per26" name="resp_per26" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per26">
             N/A
           </label>
@@ -499,15 +499,15 @@
               <h2>Capacetes, botas Luvas</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per27" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per27"  name="resp_per27" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per27">
            Sim
           </label>
-          <input type="radio" name="resp_per27" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per27" name="resp_per27" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per27">
             Não
           </label>
-          <input type="radio"  name="resp_per27" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per27" name="resp_per27" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per27">
             N/A
           </label>
@@ -522,15 +522,15 @@
               <h2>Equipamentos de proteção respiratória</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per28" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per28" name="resp_per28" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per28">
            Sim
           </label>
-          <input type="radio"  name="resp_per28" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per28" name="resp_per28" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per28">
             Não
           </label>
-          <input type="radio"  name="resp_per28" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per28" name="resp_per28" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per28">
             N/A
           </label>
@@ -545,15 +545,15 @@
               <h2>Cinturão de Segurança</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per29" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per29"  name="resp_per29" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per29">
            Sim
           </label>
-          <input type="radio" name="resp_per29" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per29" name="resp_per29" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per29">
             Não
           </label>
-          <input type="radio" name="resp_per29" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per29" name="resp_per29" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per29">
             N/A
           </label>
@@ -568,15 +568,15 @@
               <h2>Cinturão de segurança para equipe de resgate</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per30" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per30"  name="resp_per30" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per30">
            Sim
           </label>
-          <input type="radio"  name="resp_per30" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per30" name="resp_per30" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per30">
             Não
           </label>
-          <input type="radio"  name="resp_per30" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per30" name="resp_per30" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per30">
             N/A
           </label>
@@ -591,15 +591,15 @@
               <h2>Escada</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio" name="resp_per31" value="sim" class="form-check-input">
-          <label class="form-check-label" for="resp_per23">
+          <input type="radio" id="resp_per31"  name="resp_per31" value="sim" class="form-check-input">
+          <label class="form-check-label" for="resp_per31">
            Sim
           </label>
-          <input type="radio"  name="resp_per31" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per31"   name="resp_per31" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per31">
             Não
           </label>
-          <input type="radio"  name="resp_per31" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per31"   name="resp_per31" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per31">
             N/A
           </label>
@@ -614,15 +614,15 @@
               <h2>Equipamento de movimentação</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per32" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per32" name="resp_per32" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per32">
            Sim
           </label>
-          <input type="radio" name="resp_per32" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per32" name="resp_per32" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per32">
             Não
           </label>
-          <input type="radio"  name="resp_per32" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per32" name="resp_per32" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per32">
             N/A
           </label>
@@ -637,15 +637,15 @@
               <h2>Equipamento de comunicação eletrônica aprovados e certificados</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per33" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per33" name="resp_per33" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per33">
            Sim
           </label>
-          <input type="radio"  name="resp_per33" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per33" name="resp_per33" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per33">
             Não
           </label>
-          <input type="radio" name="resp_per33" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per33" name="resp_per33" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per33">
             N/A
           </label>
@@ -660,15 +660,15 @@
               <h2>Equipamento de proteção respiratória autônomo ou sistema de ar com cilindro</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per34" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per34" name="resp_per34" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per34">
            Sim
           </label>
-          <input type="radio" name="resp_per34" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per34" name="resp_per34" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per34">
             Não
           </label>
-          <input type="radio" name="resp_per34" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per34" name="resp_per34" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per34">
             N/A
           </label>
@@ -683,15 +683,15 @@
               <h2>Equipamentos eletricos e eletrônicos aprovados e certificados</h2>
             </div>
           <div class="col-sm-12 text-center mt-1">
-          <input type="radio"  name="resp_per35" value="sim" class="form-check-input">
+          <input type="radio" id="resp_per35"   name="resp_per35" value="sim" class="form-check-input">
           <label class="form-check-label" for="resp_per35">
            Sim
           </label>
-          <input type="radio"  name="resp_per35" value="Não" class="form-check-input">
+          <input type="radio" id="resp_per35"  name="resp_per35" value="Não" class="form-check-input">
           <label class="form-check-label" for="resp_per35">
             Não
           </label>
-          <input type="radio"  name="resp_per35" value="N/A" class="form-check-input">
+          <input type="radio" id="resp_per35"  name="resp_per35" value="N/A" class="form-check-input">
           <label class="form-check-label" for="resp_per35">
             N/A
           </label>
@@ -706,7 +706,7 @@
             <h2>Observações</h2>
           </div>
         <div class="col-sm-12 text-center">
-          <input type="text" name="resp_per36" class="form-control">
+          <input type="text" id="resp_per36" name="resp_per36" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -718,7 +718,7 @@
             <h2>Status</h2>
           </div>
         <div class="col-sm-12 text-center">
-          <input type="text" name="resp_per37" class="form-control">
+          <input type="text" id="resp_per37" name="resp_per37" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior">Anterior</button>
@@ -809,6 +809,11 @@
 
   function IrPergunta2()
   {
+    let text = document.getElementById("resp_per01");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
+  
     p1.style.display = "none";
     p2.style.display = "block";
     p3.style.display = "none";
@@ -846,9 +851,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta3()
   {
+    let text = document.getElementById("resp_per02");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "block";
@@ -886,9 +896,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta4()
   {
+    let text = document.getElementById("resp_per03");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -926,9 +941,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta5()
   {
+    let text = document.getElementById("resp_per04");
+    if(text.value == ""){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -966,9 +986,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta6()
   {
+    let text = document.getElementById("resp_per05");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1006,9 +1031,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta7()
   {
+    let text = document.getElementById("resp_per06");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1046,9 +1076,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta8()
   {
+    let text = document.getElementById("resp_per07");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1086,9 +1121,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta9()
   {
+    let text = document.getElementById("resp_per08");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1126,8 +1166,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta10(){
+    let text = document.getElementById("resp_per09");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1165,8 +1210,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta11(){
+    let text = document.getElementById("resp_per10");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1204,8 +1254,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta12(){
+    let text1 = document.getElementById("resp_per11A");
+    let text2 = document.getElementById("resp_per11B");
+    if(text1.checked == false && text2.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1243,8 +1299,17 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta13(){
+    let text1 = document.getElementById("resp_per12_oxigenio");
+    let text2 = document.getElementById("resp_per12_inflamaveis");
+    let text3 = document.getElementById("resp_per12_gases");
+    let text4 = document.getElementById("resp_per12_poeiras");
+    let text5 = document.getElementById("resp_per12_nome");
+    if(text1.value == '' || text2.value == '' || text3.value == '' || text4.value == '' || text5.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1282,8 +1347,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta14(){
+    let text1 = document.getElementById("resp_per13A");
+    let text2 = document.getElementById("resp_per13B");
+    if(text1.checked == false && text2.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1321,8 +1392,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta15(){
+    let text1 = document.getElementById("resp_per14A");
+    let text2 = document.getElementById("resp_per14B");
+    if(text1.checked == false && text2.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1360,8 +1437,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta16(){
+    let text1 = document.getElementById("resp_per15A");
+    let text2 = document.getElementById("resp_per15B");
+    if(text1.checked == false && text2.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1399,8 +1482,17 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta17(){
+    let text1 = document.getElementById("resp_per16_oxigenio");
+    let text2 = document.getElementById("resp_per16_inflamaveis");
+    let text3 = document.getElementById("resp_per16_gases");
+    let text4 = document.getElementById("resp_per16_poeiras");
+    let text5 = document.getElementById("resp_per16_nome");
+    if(text1.value == '' || text2.value == '' || text3.value == '' || text4.value == '' || text5.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1438,8 +1530,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta18(){
+    let text1 = document.getElementById("resp_per17A");
+    let text2 = document.getElementById("resp_per17B");
+    if(text1.checked == false && text2.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1477,8 +1575,14 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta19(){
+    let text1 = document.getElementById("resp_per18A");
+    let text2 = document.getElementById("resp_per18B");
+    if(text1.checked == false && text2.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1516,8 +1620,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta20(){
+    let text = document.getElementById("resp_per19");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1555,8 +1664,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta21(){
+    let text = document.getElementById("resp_per20");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1594,8 +1708,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta22(){
+    let text = document.getElementById("resp_per21");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1633,8 +1752,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta23(){
+    let text = document.getElementById("resp_per22");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1672,8 +1796,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta24(){
+    let text = document.getElementById("resp_per23");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1711,8 +1840,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta25(){
+    let text = document.getElementById("resp_per24");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1750,8 +1884,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta26(){
+    let text = document.getElementById("resp_per25");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1789,8 +1928,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta27(){
+    let text = document.getElementById("resp_per26");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1828,8 +1972,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta28(){
+    let text = document.getElementById("resp_per27");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1867,8 +2016,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta29(){
+    let text = document.getElementById("resp_per28");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1906,8 +2060,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta30(){
+    let text = document.getElementById("resp_per29");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1945,8 +2104,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta31(){
+    let text = document.getElementById("resp_per30");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -1984,8 +2148,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta32(){
+    let text = document.getElementById("resp_per31");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -2023,8 +2192,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta33(){
+    let text = document.getElementById("resp_per32");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -2062,8 +2236,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta34(){
+    let text = document.getElementById("resp_per33");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -2101,8 +2280,13 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "none";
+    }
   }
   function IrPergunta35(){
+    let text = document.getElementById("resp_per34");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -2138,8 +2322,13 @@
      p33.style.display = "none";
      p34.style.display = "none";
      p35.style.display = "block";
+    }
   }
   function IrPergunta36(){
+    let text = document.getElementById("resp_per35");
+    if(text.checked == false){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -2177,8 +2366,13 @@
      p35.style.display = "none";
      p36.style.display = "block";
      p37.style.display = "none";
+    }
   }
   function IrPergunta37(){
+    let text = document.getElementById("resp_per36");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     p1.style.display = "none";
     p2.style.display = "none";
     p3.style.display = "none";
@@ -2216,11 +2410,18 @@
      p35.style.display = "none";
      p36.style.display = "none";
      p37.style.display = "block";
+    }
   }
   function cadastrar(){
+    let text = document.getElementById("resp_per37");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
     let form = document.getElementById("form_pet_cadastrar");
     form.action = "pet_cadastrar.php";
+    form.method = "post";
     form.submit();
+    }
   }
 </script>
 
