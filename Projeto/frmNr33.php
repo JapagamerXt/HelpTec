@@ -13,7 +13,18 @@
         <div class="container form-control">
             <div class="row ">
                 <div class="col-sm-12">
-                    <p class="h1 text-center font">NR10</p>
+                    <p class="h1 text-center font">NR33</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 ">
+                    <input type="texto" nome="txtIDNr33" id="txtIDNr33" placeholder="IDNr33" class="form-control">
+                </div>
+                <div class="col-sm-4">
+                    <input type="texto" nome="txtIdPETNr33" id="txtIdPETNr33" placeholder="IdPETNr33" class="form-control">
+                </div>
+                <div class="col-sm-4">
+                    <input type="texto" nome="txtIdOsNr33" id="txtIdOsNr33" placeholder="IdOsNr33" class="form-control">
                 </div>
             </div>
 
@@ -21,7 +32,7 @@
                 <div class="col-sm-12 text-center h3">
                     <p><b>Pergunta 01</b></p>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" name="bto01" id="bto01">
                     <div class="form-chek">
                         <input type="radio" class="form-chek-input " name="bto" id="bto01">
                         <label for="bto01" class="form-chek-lable me-5">
@@ -51,7 +62,7 @@
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 02</b></p>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" name="bto02" id="bto02">
                     <div class="form-chek">
                         <input type="radio" class="form-chek-input " name="bto" id="bto01">
                         <label for="bto01" class="form-chek-lable me-5">
@@ -83,7 +94,7 @@
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 03</b></p>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" name="bto03" id="bto03">
                     <div class="form-chek">
                         <input type="radio" class="form-chek-input " name="bto" id="bto01">
                         <label for="bto01" class="form-chek-lable me-5">
@@ -115,7 +126,7 @@
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 04</b></p>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" name="bto04" id="bto04">
                     <div class="form-chek">
                         <input type="radio" class="form-chek-input " name="bto" id="bto01">
                         <label for="bto01" class="form-chek-lable me-5">
@@ -147,7 +158,7 @@
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 05</b></p>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" name="bto05" id="bto05">
                     <div class="form-chek">
                         <input type="radio" class="form-chek-input " name="bto" id="bto01">
                         <label for="bto01" class="form-chek-lable me-5">
@@ -179,7 +190,7 @@
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 05</b></p>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" name="bto06" id="bto06">
                     <div class="form-chek">
                         <input type="radio" class="form-chek-input " name="bto" id="bto01">
                         <label for="bto01" class="form-chek-lable me-5">
@@ -211,7 +222,7 @@
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 05</b></p>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" name="bto07" id="bto07">
                     <div class="form-chek">
                         <input type="radio" class="form-chek-input " name="bto" id="bto01">
                         <label for="bto01" class="form-chek-lable me-5">
@@ -243,7 +254,7 @@
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 05</b></p>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" name="bto08" id="bto08">
                     <div class="form-chek">
                         <input type="radio" class="form-chek-input " name="bto" id="bto01">
                         <label for="bto01" class="form-chek-lable me-5">
@@ -276,7 +287,7 @@
                     <p><b>Top perguntas 05</b></p>
                 </div>
                 <div class="row text-center">
-                    <div class="form-chek">
+                    <div class="form-chek" name="bto09" id="bto09">
                         <input type="radio" class="form-chek-input " name="bto" id="bto01">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
@@ -307,7 +318,7 @@
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 05</b></p>
                 </div>
-                <div class="row text-center">
+                <div class="row text-center" name="bto10" id="bto10">
                     <div class="form-chek">
                         <input type="radio" class="form-chek-input " name="bto" id="bto01">
                         <label for="bto01" class="form-chek-lable me-5">
@@ -337,7 +348,7 @@
                         <div class="col-sm-6 mt-2">
                             <input type="text" id="txtNomeSuper" name="txtNomeSuper" placeholder="Nome do responsavel">
                         </div>
-                        <div class="col-sm-6 mt-2">
+                        <div class="col-sm-6 mt-2" id="Liberado" name="Liberado">
                             <p><b>Esta apto a continuar com as atividades ?</b></p>
                             <div class="form-check">
 
