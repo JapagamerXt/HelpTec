@@ -11,7 +11,7 @@
 <body onload="esconder()">
     <form action="" method="post" onsubmit="return false">
         <div class="container form-control">
-        <div class="row">
+            <div class="row">
                 <div class="col-sm-4 ">
                     <input type="texto" nome="txtIDNr33" id="txtIDNr33" placeholder="IDNr33" class="form-control">
                 </div>
@@ -22,15 +22,17 @@
                     <input type="texto" nome="txtIdOsNr33" id="txtIdOsNr33" placeholder="IdOsNr33" class="form-control">
                 </div>
             </div>
-            <hr>       
+            <hr>
+            
+            <div class="row mt-3 ">
+                <div class="col-sm-12">
+                    <p class="h1 text-center font">NR33</p>
+                </div>
+            </div>
 
 
             <div class="row " id="P1">
-                <div class="row mt-3 ">
-                    <div class="col-sm-12">
-                        <p class="h1 text-center font">NR33</p>
-                    </div>
-                </div>
+
                 <div class="col-sm-12 text-center h3">
                     <p><b>Pergunta 01</b></p>
                 </div>
@@ -337,7 +339,7 @@
                             N/D
                         </label>
                     </div>
-                </div>               
+                </div>
                 <hr class="mt-2">
                 <div class="row mt-3">
                     <div class="col-sm-6 mt-2">
@@ -368,7 +370,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
     </form>
 
