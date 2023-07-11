@@ -404,7 +404,7 @@
 
                     <div class="row">
                         <div class="col-sm-1">
-                            <button onclick="per10()" class="form-control btn-outline-danger bto">Voltar</button>
+                            <button onclick="Per10()" class="form-control btn-outline-danger bto">Voltar</button>
                         </div>
                         <div class="col-sm-1">
                             <button onclick="" class="form-control btn-outline-success bto">Enviar</button>
