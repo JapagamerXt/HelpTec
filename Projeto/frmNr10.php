@@ -11,11 +11,6 @@
 <body onload="esconder()">
     <form action="" method="post" onsubmit="return false">
         <div class="container form-control">
-            <div class="row ">
-                <div class="col-sm-12">
-                    <p class="h1 text-center font">NR10</p>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-sm-4 ">
                     <input type="texto" nome="txtIDNr10" id="txtIDNr10" placeholder="IDNr10" class="form-control">
@@ -27,6 +22,14 @@
                     <input type="texto" nome="txtIdOsNr10" id="txtIdOsNr10" placeholder="IdOsNr10" class="form-control">
                 </div>
             </div>
+            <hr>
+
+            <div class="row ">
+                <div class="col-sm-12">
+                    <p class="h1 text-center font">NR10</p>
+                </div>
+            </div>
+            
 
             <div class="row " id="P1">
                 <div class="col-sm-12 text-center h3">
@@ -376,7 +379,8 @@
                         <button class="form-control" onclick="">Proximo</button>
                     </div> -->
                 </div>
-                <div class="row">
+                <hr>
+                <div class="row mt-3">
                     <div class="col-sm-6 mt-2" id="Supervisor" name="Supervisor">
                         <input type="text" id="txtNomeSuper" name="txtNomeSuper" placeholder="Nome do responsavel">
                     </div>
@@ -400,10 +404,10 @@
 
                     <div class="row">
                         <div class="col-sm-1">
-                            <button onclick="" class="form-control btn-outline-success bto">Enviar</button>
+                            <button onclick="per10()" class="form-control btn-outline-danger bto">Voltar</button>
                         </div>
                         <div class="col-sm-1">
-                            <button onclick="per11()" class="form-control btn-outline-danger bto">Voltar</button>
+                            <button onclick="" class="form-control btn-outline-success bto">Enviar</button>
                         </div>
                     </div>
 
