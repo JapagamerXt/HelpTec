@@ -24,7 +24,7 @@
             </div>
             <hr>
 
-            <div class="row ">
+            <div class="row mt-3">
                 <div class="col-sm-12">
                     <p class="h1 text-center font">NR10</p>
                 </div>
@@ -370,14 +370,6 @@
                             N/D
                         </label>
                     </div>
-                </div>
-                <div class="row">
-                    <!-- <div class="col-sm-6">
-                        <button onclick="Per10()" class="form-control">Anterior</button>
-                    </div> -->
-                    <!-- <div class="col-sm-6">
-                        <button class="form-control" onclick="">Proximo</button>
-                    </div> -->
                 </div>
                 <hr>
                 <div class="row mt-3">

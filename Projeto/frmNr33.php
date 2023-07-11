@@ -11,12 +11,7 @@
 <body onload="esconder()">
     <form action="" method="post" onsubmit="return false">
         <div class="container form-control">
-            <div class="row ">
-                <div class="col-sm-12">
-                    <p class="h1 text-center font">NR33</p>
-                </div>
-            </div>
-            <div class="row">
+        <div class="row">
                 <div class="col-sm-4 ">
                     <input type="texto" nome="txtIDNr33" id="txtIDNr33" placeholder="IDNr33" class="form-control">
                 </div>
@@ -27,8 +22,15 @@
                     <input type="texto" nome="txtIdOsNr33" id="txtIdOsNr33" placeholder="IdOsNr33" class="form-control">
                 </div>
             </div>
+            <hr>       
+
 
             <div class="row " id="P1">
+                <div class="row mt-3 ">
+                    <div class="col-sm-12">
+                        <p class="h1 text-center font">NR33</p>
+                    </div>
+                </div>
                 <div class="col-sm-12 text-center h3">
                     <p><b>Pergunta 01</b></p>
                 </div>
@@ -335,44 +337,38 @@
                             N/D
                         </label>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <button onclick="Per9()" class="form-control">Anterior</button>
+                </div>               
+                <hr>
+                <div class="row mt-3">
+                    <div class="col-sm-6 mt-2">
+                        <input type="text" id="txtNomeSuper" name="txtNomeSuper" placeholder="Nome do responsavel">
                     </div>
-                    <!-- <div class="col-sm-6">
-                        <button class="form-control" onclick="">Proximo</button>
-                    </div> -->
+                    <div class="col-sm-6 mt-2" id="Liberado" name="Liberado">
+                        <p><b>Esta apto a continuar com as atividades ?</b></p>
+                        <div class="form-check">
 
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                SIM
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                NÃO
+                            </label>
+                        </div>
+                    </div>
                     <div class="row">
-                        <div class="col-sm-6 mt-2">
-                            <input type="text" id="txtNomeSuper" name="txtNomeSuper" placeholder="Nome do responsavel">
+                        <div class="col-sm-1">
+                            <button onclick="Per10()" class="form-control btn-outline-danger bto">Voltar</button>
                         </div>
-                        <div class="col-sm-6 mt-2" id="Liberado" name="Liberado">
-                            <p><b>Esta apto a continuar com as atividades ?</b></p>
-                            <div class="form-check">
-
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
-                                    SIM
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                    NÃO
-                                </label>
-                            </div>
+                        <div class="col-sm-1">
+                            <button onclick="" class="form-control btn-outline-success bto">Enviar</button>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-1">
-                                <button onclick="" class="form-control btn-outline-success bto">Enviar</button>
-                            </div>
-                        </div>
-
-
                     </div>
                 </div>
+                
             </div>
     </form>
 
