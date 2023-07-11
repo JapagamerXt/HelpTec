@@ -83,11 +83,11 @@
 
             <div class="row mt-2">
                 <div class="col-sm-2">
-                    <button class="form-control">Cadastro</button>
+                    <button class="form-control" href="CadastroUsuario.php">Cadastro</button>
                 </div> 
 
                 <div class="col-sm-2">
-                    <button class="form-control">Alterar</button>
+                    <button class="form-control" href="alterar_Usuario.php">Alterar</button>
                 </div>
 
                 <div class="col-sm-2">
