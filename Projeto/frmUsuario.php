@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center" style="font-size: 50px;">
-                <p><B>Sesmet</B></p> 
+                <p><B>Usuário</B></p> 
             </div>
         </div>
     </div>
@@ -83,7 +83,7 @@
 
             <div class="row mt-2">
                 <div class="col-sm-2">
-                    <button class="form-control" href="CadastroUsuario.php">Cadastro</button>
+                    <button class="form-control" formaction="CadastroUsuario.php">Cadastro</button>
                 </div> 
 
                 <div class="col-sm-2">
