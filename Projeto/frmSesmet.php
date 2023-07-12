@@ -14,28 +14,28 @@
             </div>
         </div>
     </div>
-    <form action="post">
+    <form method="post">
         <div class="container form-control">
             <div class="row">
                 <div class="col-sm-2">
-                    <input type="texto" nome="txtID" id="txtID" placeholder="ID" class="form-control">
+                    <input type="texto" name="txtID" id="txtID" placeholder="ID" class="form-control">
                 </div>
             </div>
 
             <div class="row mt-3">
                 <div class="col-sm-6">
                     <label for="Nome">Nome</label>
-                    <input type="texto" nome="txtnome" id="txtnome" placeholder="nome" class="form-control">
+                    <input type="texto" name="txtnome" id="txtnome" placeholder="nome" class="form-control">
                 </div>
 
                 <div class="col-sm-3">
                     <label for="CPF">CPF</label>
-                    <input type="texto" nome="txtcpf" id="txtcpf" placeholder="cpf" class="form-control">
+                    <input type="texto" name="txtcpf" id="txtcpf" placeholder="cpf" class="form-control">
                 </div>
 
                 <div class="col-sm-2">
                     <label for="Data de Nascimento">Data de Nascimento</label>
-                    <input type="date" nome="txtdatanas" id="txtdatanas" placeholder="Data Nascimento" class="form-control">
+                    <input type="date" name="txtdatanas" id="txtdatanas" placeholder="Data Nascimento" class="form-control">
                 </div>
 
                 <div class="col-sm-1">
@@ -51,12 +51,12 @@
             <div class="row mt-3">
                 <div class="col-sm-3">
                     <label for="Login">Login</label>
-                    <input type="texto" nome="txtlogin" id="txtlogin" placeholder="login" class="form-control">
+                    <input type="texto" name="txtlogin" id="txtlogin" placeholder="login" class="form-control">
                 </div>
 
                 <div class="col-sm-3">
                     <label for="Senha">Senha</label>
-                    <input type="password" nome="txtsenha" id="txtsenha" placeholder="Senha" class="form-control">
+                    <input type="password" name="txtsenha" id="txtsenha" placeholder="Senha" class="form-control">
                 </div>
 
                 <div class="col-sm-3">
@@ -70,7 +70,7 @@
 
                 <div class="col-sm-3">
                     <label for="img">Imagem</label>
-                    <input type="file" nome="txtimg" id="txtimg" placeholder="Imagem" class="form-control">
+                    <input type="file" name="txtimg" id="txtimg" placeholder="Imagem" class="form-control">
                 </div>
 
             </div>
@@ -83,11 +83,11 @@
 
             <div class="row mt-2">
                 <div class="col-sm-2">
-                    <button class="form-control">Cadastro</button>
+                    <button class="form-control" formaction="CadastroSesmet.php">Cadastro</button>
                 </div> 
 
                 <div class="col-sm-2">
-                    <button class="form-control">Alterar</button>
+                    <button class="form-control" formaction="alterar_Sesmet.php">Alterar</button>
                 </div>
 
                 <div class="col-sm-2">

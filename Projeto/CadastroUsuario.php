@@ -9,14 +9,14 @@
         $genero = $_POST['txtGenero'];
         $login = $_POST['txtlogin'];
         $senha = $_POST['txtsenha'];
-        $status = $_POST['txtstatus'];
+        $status = $_POST['txtselect'];
         $imagem = $_POST['txtimg'];
         $Obs = $_POST['txtObs'];
 
         try 
         {
             $sql = $conn->prepare("
-                insert into sesmet
+                insert into Funcionario
                 (
                     nome_Funcionario,
                     nascimento_Funcionario,

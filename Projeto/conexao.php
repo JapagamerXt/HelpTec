@@ -1,6 +1,6 @@
 <?php
 $bd = 'tst';
-$host = '10.37.27.47';
+$host = '10.37.47.27';
 $user = 'root';
 $pass = '';
 

@@ -1,5 +1,5 @@
 <?php 
-    include_once("C4onexao.php");
+    include_once("Conexao.php");
 
     if ($_POST) 
     {

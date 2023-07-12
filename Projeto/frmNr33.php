@@ -9,17 +9,17 @@
 </head>
 
 <body onload="esconder()">
-    <form action="" method="post" onsubmit="return false">
+    <form action="" method="post" onsubmit="return false" name="frmFormulario" id="frmFormulario">
         <div class="container form-control">
             <div class="row">
                 <div class="col-sm-4 ">
-                    <input type="texto" nome="txtIDNr33" id="txtIDNr33" placeholder="IDNr33" class="form-control">
+                    <input type="texto" name="txtIDNr33" id="txtIDNr33" placeholder="IDNr33" class="form-control">
                 </div>
                 <div class="col-sm-4">
-                    <input type="texto" nome="txtIdPETNr33" id="txtIdPETNr33" placeholder="IdPETNr33" class="form-control">
+                    <input type="texto" name="txtIdPETNr33" id="txtIdPETNr33" placeholder="IdPETNr33" class="form-control">
                 </div>
                 <div class="col-sm-4">
-                    <input type="texto" nome="txtIdOsNr33" id="txtIdOsNr33" placeholder="IdOsNr33" class="form-control">
+                    <input type="texto" name="txtIdOsNr33" id="txtIdOsNr33" placeholder="IdOsNr33" class="form-control">
                 </div>
             </div>
             <hr>
@@ -366,7 +366,7 @@
                             <button onclick="Per9()" class="form-control btn-outline-danger bto">Voltar</button>
                         </div>
                         <div class="col-sm-1">
-                            <button onclick="" class="form-control btn-outline-success bto">Enviar</button>
+                            <button onclick="cadastrar()" class="form-control btn-outline-success bto">Enviar</button>
                         </div>
                     </div>
                 </div>
@@ -517,6 +517,11 @@
         P08.style.display = 'none';
         P09.style.display = 'none';
         P10.style.display = 'block';
+    }
+
+    function cadastrar() {
+
+
     }
 </script>
 
