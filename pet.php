@@ -20,7 +20,6 @@
           <input type="text" id="resp_per01" name="resp_per01" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
             <button class="btn btn-success" id="btn_proximo1" onclick="IrPergunta2()">Próximo 2</button>
           </div>
          
@@ -33,7 +32,7 @@
           <input type="text" id="resp_per02" name="resp_per02" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="Esconder()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo2" onclick="IrPergunta3()">Próximo</button>
           </div>
          
@@ -46,7 +45,7 @@
         <input type="text" id="resp_per03" name="resp_per03" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta2()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo3" onclick="IrPergunta4()">Próximo</button>
           </div>
         </div>
@@ -58,7 +57,7 @@
             <input type="date" class="form-control" id="resp_per04" name="resp_per04">
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta3()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo4" onclick="IrPergunta5()">Próximo</button>
           </div>
          
@@ -71,7 +70,7 @@
           <input type="date" class="form-control" id="resp_per05" name="resp_per05">
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta4()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo5" onclick="IrPergunta6()">Próximo</button>
           </div>
          
@@ -84,7 +83,7 @@
           <input type="text" id="resp_per06" name="resp_per06" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta5()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo6" onclick="IrPergunta7()">Próximo</button>
           </div>
        </div>
@@ -96,7 +95,7 @@
             <textarea  id="resp_per07" name="resp_per07" cols="30" rows="05" placeholder="Teste" class="form-control"></textarea>
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta6()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo7" onclick="IrPergunta8()">Próximo</button>
           </div>
          
@@ -109,7 +108,7 @@
           <input type="text" id="resp_per08" name="resp_per08" class="form-control">
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta7()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo8" onclick="IrPergunta9()">Próximo</button>
           </div>
          
@@ -122,7 +121,7 @@
           <input type="text" id="resp_per09" name="resp_per09" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta8()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta10()" >Próximo</button>
           </div>
      </div>
@@ -134,7 +133,7 @@
           <input type="text" id="resp_per10" name="resp_per10" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta9()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta11()" >Próximo</button>
           </div>
       </div>
@@ -153,7 +152,7 @@
           </label>
         </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta10()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta12()" >Próximo</button>
           
           </div>
@@ -178,7 +177,7 @@
             <input type="text" id="resp_per12_nome" name="resp_per12_nome" class="form-control" placeholder="Nome legível e Assinatura do Supervisor dos testes">
             </div>
             <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta11()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta13()" >Próximo</button>
           </div>
      </div>
@@ -201,7 +200,7 @@
           </label>
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta12()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta14()" >Próximo</button>
           </div>
       </div>
@@ -224,7 +223,7 @@
           </label>
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta13()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta15()" >Próximo</button>
           </div>
       </div>
@@ -247,7 +246,7 @@
           </label>
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta14()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta16()" >Próximo</button>
           </div>
       </div>
@@ -271,7 +270,7 @@
             <input type="text" id="resp_per16_nome" name="resp_per16_nome" class="form-control" placeholder="Nome legível e Assinatura do Supervisor dos testes">
             </div>
             <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta15()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta17()" >Próximo</button>
           </div>
      </div>
@@ -294,7 +293,7 @@
           </label>
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta16()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta18()" >Próximo</button>
           </div>
       </div>
@@ -317,7 +316,7 @@
           </label>
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta17()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta19()" >Próximo</button>
           </div>
       </div>
@@ -340,7 +339,7 @@
           </label>
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta18()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9"onclick="IrPergunta20()" >Próximo</button>
           </div>
       </div>
@@ -363,7 +362,7 @@
           </label>
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta19()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta21()" >Próximo</button>
           </div>
       </div>
@@ -386,7 +385,7 @@
           </label>
           </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta20()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta22()" >Próximo</button>
           </div>
       </div>
@@ -398,7 +397,7 @@
           <input type="text" id="resp_per22" name="resp_per22" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta21()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta23()" >Próximo</button>
           </div>
       </div>
@@ -421,7 +420,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta22()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta24()" >Próximo</button>
           </div>
       </div>
@@ -444,7 +443,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta23()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta25()" >Próximo</button>
           </div>
       </div>
@@ -467,7 +466,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta24()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta26()" >Próximo</button>
           </div>
       </div>
@@ -490,7 +489,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta25()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta27()" >Próximo</button>
           </div>
       </div>
@@ -513,7 +512,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta26()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta28()" >Próximo</button>
           </div>
       </div>
@@ -536,7 +535,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta27()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta29()" >Próximo</button>
           </div>
       </div>
@@ -559,7 +558,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta28()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta30()" >Próximo</button>
           </div>
       </div>
@@ -582,7 +581,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta29()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta31()" >Próximo</button>
           </div>
       </div>
@@ -605,7 +604,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta30()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta32()" >Próximo</button>
           </div>
       </div>
@@ -628,7 +627,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta31()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta33()" >Próximo</button>
           </div>
       </div>
@@ -651,7 +650,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta32()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta34()" >Próximo</button>
           </div>
       </div>
@@ -674,7 +673,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta33()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta35()" >Próximo</button>
           </div>
       </div>
@@ -697,7 +696,7 @@
           </label>
           </div>
       <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta34()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta36()" >Próximo</button>
           </div>
       </div>
@@ -709,7 +708,7 @@
           <input type="text" id="resp_per36" name="resp_per36" class="form-control">
         </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta35()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="IrPergunta37()" >Próximo</button>
           </div>
       </div>   
@@ -725,7 +724,7 @@
                 </select>
         </div>
           <div class="col-sm-12 mt-1 text-center">
-            <button class="btn btn-success" id="btn_anterior">Anterior</button>
+            <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta36()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo9" onclick="cadastrar()" >Finalizar</button>
           </div>
   </div>
