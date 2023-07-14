@@ -13,13 +13,13 @@
         <div class="container form-control">
             <div class="row">
                 <div class="col-sm-4 ">
-                    <input type="texto" nome="txtIDNr10" id="txtIDNr10" placeholder="IDNr10" class="form-control">
+                    <input type="texto" name="txtIDNr10" id="txtIDNr10" placeholder="IDNr10" class="form-control">
                 </div>
                 <div class="col-sm-4">
-                    <input type="texto" nome="txtIdAprNr10" id="txtIdAprNr10" placeholder="IdAprNr10" class="form-control">
+                    <input type="texto" name="txtIdAprNr10" id="txtIdAprNr10" placeholder="IdAprNr10" class="form-control">
                 </div>
                 <div class="col-sm-4">
-                    <input type="texto" nome="txtIdOsNr10" id="txtIdOsNr10" placeholder="IdOsNr10" class="form-control">
+                    <input type="texto" name="txtIdOsNr10" id="txtIdOsNr10" placeholder="IdOsNr10" class="form-control">
                 </div>
             </div>
             <hr>
@@ -29,9 +29,9 @@
                     <p class="h1 text-center font">NR10</p>
                 </div>
             </div>
-            
 
-            <div class="row " id="P1">
+
+            <div class="row " id="P1" name="P1">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Pergunta 01</b></p>
                 </div>
@@ -61,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="row " id="P2">
+            <div class="row " id="P2" name="P2">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 02</b></p>
                 </div>
@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="row " id="P3">
+            <div class="row " id="P3" name="P3">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 03</b></p>
                 </div>
@@ -125,7 +125,7 @@
                 </div>
             </div>
 
-            <div class="row " id="P4">
+            <div class="row " id="P4" name="P4">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 04</b></p>
                 </div>
@@ -157,7 +157,7 @@
                 </div>
             </div>
 
-            <div class="row " id="P5">
+            <div class="row " id="P5" name="P5">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 05</b></p>
                 </div>
@@ -189,7 +189,7 @@
                 </div>
             </div>
 
-            <div class="row " id="P6">
+            <div class="row " id="P6" name="P6">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 06</b></p>
                 </div>
@@ -221,7 +221,7 @@
                 </div>
             </div>
 
-            <div class="row " id="P7">
+            <div class="row " id="P7" name="P7">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 07</b></p>
                 </div>
@@ -253,7 +253,7 @@
                 </div>
             </div>
 
-            <div class="row " id="P8">
+            <div class="row " id="P8" name="P8">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 08</b></p>
                 </div>
@@ -285,7 +285,7 @@
                 </div>
             </div>
 
-            <div class="row " id="P9">
+            <div class="row " id="P9" name="P9">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 09</b></p>
                 </div>
@@ -317,7 +317,7 @@
                 </div>
             </div>
 
-            <div class="row " id="P10">
+            <div class="row " id="P10" name="P10">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 10</b></p>
                 </div>
@@ -349,7 +349,7 @@
                 </div>
             </div>
 
-            <div class="row " id="P11">
+            <div class="row " id="P11" name="P11">
                 <div class="col-sm-12 text-center h3">
                     <p><b>Top perguntas 11</b></p>
                 </div>
@@ -371,38 +371,39 @@
                         </label>
                     </div>
                 </div>
-                <hr>
-                <div class="row mt-3">
-                    <div class="col-sm-6 mt-2" id="Supervisor" name="Supervisor">
-                        <input type="text" id="txtNomeSuper" name="txtNomeSuper" placeholder="Nome do responsavel">
+                
+            </div>
+            <hr>
+
+            <div class="row mt-3">
+                <div class="col-sm-6 mt-2" id="Supervisor" name="Supervisor">
+                    <input type="text" id="txtSuper" name="txtSuper" placeholder="Nome do responsavel">
+                </div>
+                <div class="col-sm-6 mt-2" id="Liberado" name="Liberado">
+                    <p><b>Esta apto a continuar com as atividades ?</b></p>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            SIM
+                        </label>
                     </div>
-                    <div class="col-sm-6 mt-2" id="Liberado" name="Liberado">
-                        <p><b>Esta apto a continuar com as atividades ?</b></p>
-                        <div class="form-check">
-
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
-                                SIM
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                                NÃO
-                            </label>
-                        </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            NÃO
+                        </label>
                     </div>
+                </div>
 
 
-                    <div class="row">
-                        <div class="col-sm-1">
-                            <button onclick="Per10()" class="form-control btn-outline-danger bto">Voltar</button>
-                        </div>
-                        <div class="col-sm-1">
-                            <button onclick="Cadastrar()" class="form-control btn-outline-success bto">Enviar</button>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-1" id="cadastrar" name="cadastrar">
+                        <button onclick="Per10()" class="form-control btn-outline-danger bto">Voltar</button>
                     </div>
-
+                    <div class="col-sm-1">
+                        <button onclick="enviarCa()" class="form-control btn-outline-success bto">Enviar</button>
+                    </div>
                 </div>
 
             </div>
@@ -580,17 +581,17 @@
         P11.style.display = 'block';
     }
 
-    function cadastrar(){
-    let text = document.getElementById("Liberado");
-    if(text.value == ''){
-      alert("Por favor, preencha os campos obrigatórios");
-    }else{
-    let form = document.getElementById("frmFormulario");
-    form.action = "Cadastro_Nr10.php";
-    form.method = "post";
-    form.submit();
+    function enviarCa() {
+        let text = document.getElementById("bto11");
+        if (text.value == '') {
+            alert("Por favor, preencha os campos obrigatórios");
+        } else {
+            let form = document.getElementById("frmFormulario");
+            form.action = "Cadastro_Nr10.php";
+            form.method = "post";
+            form.submit();
+        }
     }
-  }
 </script>
 
 </html>

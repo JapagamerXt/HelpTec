@@ -5,18 +5,18 @@
     {
         $idApr = $_POST['txtIdAprNr10'];
         $idOs = $_POST['txtIdOsNr10'];
-        $per1 = $_POST['bto01'];
-        $per2 = $_POST['bto02'];
-        $per3 = $_POST['bto03'];
-        $per4 = $_POST['bto04'];
-        $per5 = $_POST['bto05'];
-        $per6 = $_POST['bto06'];
-        $per7 = $_POST['bto07'];
-        $per8 = $_POST['bto08'];
-        $per9 = $_POST['bto09'];
-        $per10 = $_POST['bto10'];
-        $per11 = $_POST['bto11'];
-        $nomeSuper = $_POST['Supervisor'];
+        $per1 = $_POST['P1'];
+        $per2 = $_POST['P2'];
+        $per3 = $_POST['P3'];
+        $per4 = $_POST['P4'];
+        $per5 = $_POST['P5'];
+        $per6 = $_POST['P6'];
+        $per7 = $_POST['P7'];
+        $per8 = $_POST['P8'];
+        $per9 = $_POST['P9'];
+        $per10 = $_POST['P10'];
+        $per11 = $_POST['P11'];
+        $nomeSuper = $_POST['txtSuper'];
         $assina = $_POST['Liberado'];
  
         try 
@@ -61,7 +61,7 @@
           ");
           $sql->execute(array(
             ':Id_APR_Nr10'=>$idApr,
-            ':Id_OrdemServico_Nr10'=> $idOs,
+            ':Id_OrdemServico_Nr10'=>$idOs,
             ':Per1_Nr10'=>$per1,
             ':Per2_Nr10'=>$per2,
             ':Per3_Nr10'=>$per3,
