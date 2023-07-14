@@ -9,7 +9,7 @@
 </head>
 
 <body onload="esconder()">
-    <form action="" method="post" onsubmit="return false">
+    <form action="" method="post" onsubmit="return false" id="frmFormulario" name="frmFormulario">
         <div class="container form-control">
             <div class="row">
                 <div class="col-sm-4 ">
@@ -399,7 +399,7 @@
                             <button onclick="Per10()" class="form-control btn-outline-danger bto">Voltar</button>
                         </div>
                         <div class="col-sm-1">
-                            <button onclick="" class="form-control btn-outline-success bto">Enviar</button>
+                            <button onclick="Cadastrar()" class="form-control btn-outline-success bto">Enviar</button>
                         </div>
                     </div>
 
@@ -579,6 +579,18 @@
         P10.style.display = 'none';
         P11.style.display = 'block';
     }
+
+    function cadastrar(){
+    let text = document.getElementById("Liberado");
+    if(text.value == ''){
+      alert("Por favor, preencha os campos obrigatórios");
+    }else{
+    let form = document.getElementById("frmFormulario");
+    form.action = "Cadastro_Nr10.php";
+    form.method = "post";
+    form.submit();
+    }
+  }
 </script>
 
 </html>
