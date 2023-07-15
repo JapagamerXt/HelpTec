@@ -1,5 +1,5 @@
 <?php 
-    include_once("Conexao.php");
+    include_once("conexao.php");
 
     if ($_POST) 
     {
@@ -41,7 +41,7 @@
                     :status_Sesmet
                 )            
             ");
-            $sql->execute(Array(
+            $sql->execute(array(
                 ':nome_Sesmet'=> $nome,
                 ':nascimento_Sesmet'=>$nascimento,
                 ':genero_Sesmet'=> $genero,
