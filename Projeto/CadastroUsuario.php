@@ -1,5 +1,5 @@
 <?php 
-    include_once("Conexao.php");
+    include_once("conexao.php");
 
     if ($_POST) 
     {
