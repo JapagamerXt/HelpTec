@@ -38,8 +38,8 @@ print_r($_POST);
               responsavel_Nr10,
               Assinatura_Nr10,
               serti_Nr_10,
-              obs_Nr10,
-              status_Nr10
+              obs_Nr,
+              status_Nr
             )
             values
             (
@@ -55,8 +55,8 @@ print_r($_POST);
               :responsavel_Nr10,
               :Assinatura_Nr10,
               :serti_Nr_10,
-              :obs_Nr10,
-              :status_Nr10
+              :obs_Nr,
+              :status_Nr
             ) 
           ");
           $sql->execute(array(
@@ -72,8 +72,8 @@ print_r($_POST);
             ':responsavel_Nr10'=>$nomeSuper,
             ':Assinatura_Nr10'=>$assina,
             ':serti_Nr_10'=>$img,
-            ':obs_Nr10'=>$obs,
-            ':status_Nr10'=>$status
+            ':obs_Nr'=>$obs,
+            ':status_Nr'=>$status
           ));
           if ($sql->rowCount()>=1) 
           {
