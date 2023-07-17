@@ -83,7 +83,7 @@
 
             <div class="row mt-2">
                 <div class="col-sm-2">
-                    <button class="form-control" formaction="CadastroSesmet.php">Cadastro</button>
+                    <button class="form-control" formaction="Cadastro_Sesmet.php">Cadastro</button>
                 </div> 
 
                 <div class="col-sm-2">

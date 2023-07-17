@@ -1,4 +1,7 @@
 <?php 
+echo "<pre>";
+print_r($_POST);
+ echo "</pre>";
     include_once("conexao.php");
     
     if ($_POST) 
@@ -15,8 +18,11 @@
         $per8 = $_POST['bto08'];
         $per9 = $_POST['bto09'];
         $per10 = $_POST['bto10'];
-        $nomeSuper = $_POST['txtNomeSuper'];
-        $assina = $_POST['Liberado'];
+        $nomeSuper = $_POST['txtSuper'];
+        $assina = $_POST['Permicao'];
+        $image = $_POST['txtimg'];
+        $status = $_POST['txtselect'];
+        $Obs = $_POST['txtObs'];
     }
     try 
     {
@@ -35,8 +41,11 @@
                 Per8_Nr33,
                 Per9_Nr33,
                 Per10_Nr33,
-                responsavel_Nr10,
-                Assinatura_Nr10
+                responsavel_Nr33,
+                Assinatura_Nr33,
+                serti_Nr33,
+                obs_Nr33,
+                status_Nr33
             )
             values
             (
@@ -52,8 +61,11 @@
                 :Per8_Nr33,
                 :Per9_Nr33,
                 :Per10_Nr33,
-                :responsavel_Nr10,
-                :Assinatura_Nr10
+                :responsavel_Nr33,
+                :Assinatura_Nr3,
+                :serti_Nr33,
+                :obs_Nr33,
+                :status_Nr33
             )
         ");
         $sql->execute(array(
@@ -70,7 +82,10 @@
             ':Per9_Nr33'=> $per9,
             ':Per10_Nr33'=>$per10,
             ':responsavel_Nr10'=>$nomeSuper,
-            ':Assinatura_Nr10'=> $assina
+            ':Assinatura_Nr10'=> $assina,
+            ':serti_Nr33'=>$image,
+            ':obs_Nr33'=> $Obs,
+            ':status_Nr33'=>$status
         ));
 
         if ($sql->rowCount()>=1) 

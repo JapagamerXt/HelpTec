@@ -2,7 +2,8 @@
     include_once("Conexao.php");
 
     if ($_POST) 
-    {
+    {   
+        $Id = $_POST['txtID'];
         $nome = $_POST['txtnome'];
         $cpf = $_POST['txtcpf'];
         $nascimento = $_POST['txtdatanas'];
@@ -30,6 +31,7 @@
             ");
 
             $sql->execute(array(
+                ':Id_Funcionario'=>$Id,
                 ':nome_Funcionario'=> $nome,
                 ':nascimento_Funcionario'=>$nascimento,
                 ':genero_Funcionario'=> $genero,

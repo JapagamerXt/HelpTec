@@ -1,5 +1,5 @@
 <?php 
-    include_once("Conexao.php");
+    include_once("conexao.php");
 
     if ($_POST) 
     {
@@ -60,4 +60,4 @@
 ?>
 <hr>
 <img src="oks.jfif" alt="">
-<button> <a href="frm_Sesmet.php">Voltar</a> 
+<button> <a href="frmSesmet.php">Voltar</a> 

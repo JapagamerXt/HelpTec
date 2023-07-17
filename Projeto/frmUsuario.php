@@ -14,12 +14,15 @@
             </div>
         </div>
     </div>
-    <form method="post">
+    <form method="post" action="">
         <div class="container form-control">
             <div class="row">
                 <div class="col-sm-2">
                     <input type="numero" name="txtID" id="txtID" placeholder="ID" class="form-control">
                 </div>
+                <!-- <div class="col-sm-1" class= "form-control">
+                 <button formaction="frm_Usuario.php" class="btn btn-primary" name="btoPesquisar" id="btoPequisar">&#128269;</button>
+                </div> -->
             </div>
 
             <div class="row mt-3">
