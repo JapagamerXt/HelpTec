@@ -42,12 +42,6 @@
              Histórico</div>
         </a>
 
-        <?php
-    
-        include_once("_topo.php")
-
-        ?>
-
     </div>
     
 </body>
