@@ -11,26 +11,41 @@
 <body onload="Esconder()">
     <h1 id="pet">PET</h1>
     <form action="" method="post" class="form-control border-0" onsubmit="return false;" id="form_pet_cadastrar">
-     <div class="container">
+<div class="container">
        <div class="row" id="per01">
           <div class="col-sm-12 text-center">
             <h2>Nome da Empresa:</h2>
           </div>
-          <div class="col-sm-12">
+    <div class="row">    
+          <div class="col-sm-4 mt-1">
+
+          </div>
+          <div class="col-sm-4">
           <input type="text" id="resp_per01" name="resp_per01" class="form-control">
+          </div>
+          <div class="col-sm-4 mt-1">
+
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_proximo1" onclick="IrPergunta2()">Próximo 2</button>
           </div>
-         
+    </div>   
        </div>
        <div class="row" id="per02">
           <div class="col-sm-12 text-center">
             <h2>Local espaço confinado:</h2>
           </div>
-          <div class="col-sm-12">
+      <div class="row">    
+          <div class="col-sm-4 mt-1">
+
+          </div>
+          <div class="col-sm-4">
           <input type="text" id="resp_per02" name="resp_per02" class="form-control">
           </div>
+          <div class="col-sm-4 mt-1">
+
+          </div>
+      </div>   
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior" onclick="Esconder()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo2" onclick="IrPergunta3()">Próximo</button>
@@ -41,9 +56,17 @@
           <div class="col-sm-12 text-center">
             <h2>N° Espaço confinado:</h2>
           </div>
-        <div class="col-sm-12 text-center">
+     <div class="row">    
+          <div class="col-sm-4 mt-1">
+
+          </div>
+        <div class="col-sm-4 text-center">
         <input type="text" id="resp_per03" name="resp_per03" class="form-control">
         </div>
+        <div class="col-sm-4 mt-1">
+
+          </div>
+     </div>     
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta2()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo3" onclick="IrPergunta4()">Próximo</button>
@@ -53,9 +76,17 @@
           <div class="col-sm-12 text-center">
             <h2>Data e Horário de Emissão</h2>
           </div>
-          <div class="col-sm-12">
+      <div class="row">   
+          <div class="col-sm-4 mt-1">
+
+          </div>
+          <div class="col-sm-4">
             <input type="date" class="form-control" id="resp_per04" name="resp_per04">
           </div>
+          <div class="col-sm-4 mt-1">
+
+          </div>
+      </div>    
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior" onclick="IrPergunta3()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo4" onclick="IrPergunta5()">Próximo</button>
@@ -66,9 +97,17 @@
           <div class="col-sm-12 text-center">
             <h2>Data e Horário de Término</h2>
           </div>
-          <div class="col-sm-12">
+      <div class="row">  
+          <div class="col-sm-4 mt-1">
+
+          </div>
+          <div class="col-sm-4">
           <input type="date" class="form-control" id="resp_per05" name="resp_per05">
           </div>
+          <div class="col-sm-4 mt-1">
+
+          </div>
+      </div>   
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta4()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo5" onclick="IrPergunta6()">Próximo</button>
@@ -79,9 +118,17 @@
           <div class="col-sm-12 text-center">
             <h2>Trabalho a ser realizado:</h2>
           </div>
-          <div class="col-sm-12 text-center">
+     <div class="row">    
+          <div class="col-sm-4 mt-1">
+
+          </div>
+          <div class="col-sm-4 text-center">
           <input type="text" id="resp_per06" name="resp_per06" class="form-control">
           </div>
+          <div class="col-sm-4 mt-1">
+
+          </div>
+     </div>    
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta5()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo6" onclick="IrPergunta7()">Próximo</button>
@@ -91,14 +138,21 @@
           <div class="col-sm-12 text-center">
             <h2>Trabalhadores Autorizados</h2>
           </div>
-          <div class="col-sm-12">
+     <div class="row">    
+          <div class="col-sm-4 mt-1">
+
+          </div>
+          <div class="col-sm-4">
             <textarea  id="resp_per07" name="resp_per07" cols="30" rows="05" placeholder="Teste" class="form-control"></textarea>
+          </div>
+          <div class="col-sm-4 mt-1">
+
           </div>
           <div class="col-sm-12 mt-1 text-center">
             <button class="btn btn-success" id="btn_anterior"onclick="IrPergunta6()">Anterior</button>
             <button class="btn btn-success" id="btn_proximo7" onclick="IrPergunta8()">Próximo</button>
           </div>
-         
+     </div>    
        </div>
        <div class="row" id="per08">
           <div class="col-sm-12 text-center">

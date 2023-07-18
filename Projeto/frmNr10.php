@@ -37,7 +37,7 @@
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" id="bto01" name="bto01">
-                        <input type="radio" class="form-chek-input " name="txt01" id="bto01">
+                        <input type="radio" class="form-chek-input " name="txt01" id="bto01S">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
@@ -251,33 +251,38 @@
                         <button class="form-control" onclick="Per8()">Proximo</button>
                     </div>
                 </div>
-            </div>           
+            </div>
 
-            <div class="row" id="P8" name="P8" >
+            <div class="row" id="P8" name="P8">
                 <div class="col-sm-6 mt-2" id="Supervisor" name="Supervisor">
-                    <input type="text" id="txtSuper" name="txtSuper" placeholder="Nome do responsavel">
-                </div>
-                <div class="col-sm-3 mt-2" id="Liberado" name="Liberado">
-                    <p><b>Esta apto a continuar com as atividades ?</b></p>
-                    <div class="form-check">
+                    <input type="text" id="txtSuper" name="txtSuper" placeholder="Nome do responsavel" required>
 
-                        <input class="form-check-input" type="radio" name="Permicao" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            SIM
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="Permicao" id="flexRadioDefault2" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            NÃO
-                        </label>
+                    <div class="row">
+                        <div class="col-sm-3 mt-2" id="Liberado" name="Liberado">
+                            <p><b>Esta apto a continuar com as atividades ?</b></p>
+                            <div class="form-check">
+
+                                <input class="form-check-input" type="radio" name="Permicao" id="Permicao1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    SIM
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="Permicao" id="Permicao2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    NÃO
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
 
                 <div class="col-sm-3">
                     <label for="img">Imagem</label>
                     <input type="file" name="txtimg" id="txtimg" placeholder="Imagem" class="form-control">
                 </div>
+                <hr>
 
                 <div class="row">
                     <div class="col-sm-3">
@@ -334,91 +339,148 @@
     }
 
     function Per2() {
-        P01.style.display = 'none';
-        P02.style.display = 'block';
-        P03.style.display = 'none';
-        P04.style.display = 'none';
-        P05.style.display = 'none';
-        P06.style.display = 'none';
-        P07.style.display = 'none';
-        P08.style.display = 'none';
+        let text1 = document.getElementById("bto01S");
+        let text2 = document.getElementById("bto01N");
+        let text3 = document.getElementById("bto01ND");
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+
+            P01.style.display = 'none';
+            P02.style.display = 'block';
+            P03.style.display = 'none';
+            P04.style.display = 'none';
+            P05.style.display = 'none';
+            P06.style.display = 'none';
+            P07.style.display = 'none';
+            P08.style.display = 'none';
+        }
     }
 
+
     function Per3() {
-        P01.style.display = 'none';
-        P02.style.display = 'none';
-        P03.style.display = 'block';
-        P04.style.display = 'none';
-        P05.style.display = 'none';
-        P06.style.display = 'none';
-        P07.style.display = 'none';
-        P08.style.display = 'none';
+        let text1 = document.getElementById("bto02S");
+        let text2 = document.getElementById("bto02N");
+        let text3 = document.getElementById("bto02ND");
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = 'none';
+            P02.style.display = 'none';
+            P03.style.display = 'block';
+            P04.style.display = 'none';
+            P05.style.display = 'none';
+            P06.style.display = 'none';
+            P07.style.display = 'none';
+            P08.style.display = 'none';
+        }
     }
 
     function Per4() {
-        P01.style.display = 'none';
-        P02.style.display = 'none';
-        P03.style.display = 'none';
-        P04.style.display = 'block';
-        P05.style.display = 'none';
-        P06.style.display = 'none';
-        P07.style.display = 'none';
-        P08.style.display = 'none';
+        let text1 = document.getElementById("bto03S");
+        let text2 = document.getElementById("bto03N");
+        let text3 = document.getElementById("bto03ND");
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = 'none';
+            P02.style.display = 'none';
+            P03.style.display = 'none';
+            P04.style.display = 'block';
+            P05.style.display = 'none';
+            P06.style.display = 'none';
+            P07.style.display = 'none';
+            P08.style.display = 'none';
+        }
     }
 
     function Per5() {
-        P01.style.display = 'none';
-        P02.style.display = 'none';
-        P03.style.display = 'none';
-        P04.style.display = 'none';
-        P05.style.display = 'block';
-        P06.style.display = 'none';
-        P07.style.display = 'none';
-        P08.style.display = 'none';
+        let text1 = document.getElementById("bto04S");
+        let text2 = document.getElementById("bto04N");
+        let text3 = document.getElementById("bto04ND");
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = 'none';
+            P02.style.display = 'none';
+            P03.style.display = 'none';
+            P04.style.display = 'none';
+            P05.style.display = 'block';
+            P06.style.display = 'none';
+            P07.style.display = 'none';
+            P08.style.display = 'none';
+        }
     }
 
     function Per6() {
-        P01.style.display = 'none';
-        P02.style.display = 'none';
-        P03.style.display = 'none';
-        P04.style.display = 'none';
-        P05.style.display = 'none';
-        P06.style.display = 'block';
-        P07.style.display = 'none';
-        P08.style.display = 'none';
+        let text1 = document.getElementById("bto05S");
+        let text2 = document.getElementById("bto05N");
+        let text3 = document.getElementById("bto05ND");
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = 'none';
+            P02.style.display = 'none';
+            P03.style.display = 'none';
+            P04.style.display = 'none';
+            P05.style.display = 'none';
+            P06.style.display = 'block';
+            P07.style.display = 'none';
+            P08.style.display = 'none';
+        }
     }
 
     function Per7() {
-        P01.style.display = 'none';
-        P02.style.display = 'none';
-        P03.style.display = 'none';
-        P04.style.display = 'none';
-        P05.style.display = 'none';
-        P06.style.display = 'none';
-        P07.style.display = 'block';
-        P08.style.display = 'none';
+        let text1 = document.getElementById("bto06S");
+        let text2 = document.getElementById("bto06N");
+        let text3 = document.getElementById("bto06ND");
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = 'none';
+            P02.style.display = 'none';
+            P03.style.display = 'none';
+            P04.style.display = 'none';
+            P05.style.display = 'none';
+            P06.style.display = 'none';
+            P07.style.display = 'block';
+            P08.style.display = 'none';
+        }
     }
 
     function Per8() {
-        P01.style.display = 'none';
-        P02.style.display = 'none';
-        P03.style.display = 'none';
-        P04.style.display = 'none';
-        P05.style.display = 'none';
-        P06.style.display = 'none';
-        P07.style.display = 'none';
-        P08.style.display = 'block';
+        let text1 = document.getElementById("bto07S");
+        let text2 = document.getElementById("bto07N");
+        let text3 = document.getElementById("bto07ND");
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = 'none';
+            P02.style.display = 'none';
+            P03.style.display = 'none';
+            P04.style.display = 'none';
+            P05.style.display = 'none';
+            P06.style.display = 'none';
+            P07.style.display = 'none';
+            P08.style.display = 'block';
+        }
     }
 
     function enviarCa() {
-        let text = document.getElementById("P8");
-        if (text.value == '') {
-            alert("Per6, preencha os campos obrigatórios");
+        let text1 = document.getElementById("Permicao1");
+        let text2 = document.getElementById("Permicao2");
+        if (text1.checked == false && text2.checked == false) {
+            alert("Campo obrigatorio");
         } else {
-            let form = document.getElementById("frmFormulario");
-            form.action = "Cadastro_Nr10.php";
-            form.method = "post";
-            form.submit();
+            let text = document.getElementById("P8");
+            if (text.value == '') {
+                alert("Per6, preencha os campos obrigatórios");
+            } else {
+                let form = document.getElementById("frmFormulario");
+                form.action = "Cadastro_Nr10.php";
+                form.method = "post";
+                form.submit();
+            }
         }
     }
 </script>

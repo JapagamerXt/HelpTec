@@ -16,7 +16,7 @@
         try 
         {
             $sql = $conn->prepare("
-                insert into sesmet
+                insert into Sesmet
                 (
                     nome_Sesmet,
                     nascimento_Sesmet,
