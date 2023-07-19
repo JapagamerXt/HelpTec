@@ -10,19 +10,8 @@
 
 <body onload="esconder()">
     <form action="" method="post" onsubmit="return false" name="frmFormularioNr33" id="frmFormularioNr33">
-        <div class="container form-control">
-            <div class="row">
-                <div class="col-sm-4 ">
-                    <input type="texto" name="txtIDNr33" id="txtIDNr33" placeholder="IDNr33" class="form-control">
-                </div>
-                <div class="col-sm-4">
-                    <input type="texto" name="txtIdPETNr33" id="txtIdPETNr33" placeholder="IdPETNr33" class="form-control">
-                </div>
-                <div class="col-sm-4">
-                    <input type="texto" name="txtIdOsNr33" id="txtIdOsNr33" placeholder="IdOsNr33" class="form-control">
-                </div>
-            </div>
-            <hr>
+        <div class="container form-control mt-lg-5">
+
 
             <div class="row mt-3 ">
                 <div class="col-sm-12">
@@ -38,15 +27,15 @@
                 </div>
                 <div class="row text-center" name="bto01" id="bto01">
                     <div class="form-chek">
-                        <input type="radio" class="form-chek-input " name="bto01" id="bto01S" >
+                        <input type="radio" class="form-chek-input " name="bto01" id="bto01S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
-                        <input type="radio" class="form-chek-input" name="bto01" id="bto01N">
+                        <input type="radio" class="form-chek-input" name="bto01" id="bto01N" value="não">
                         <label for="bto01" class="form-chek-lable me-5">
                             NÃO
                         </label>
-                        <input type="radio" class="form-chek-input" name="bto01" id="bto01ND">
+                        <input type="radio" class="form-chek-input" name="bto01" id="bto01ND" value="N/D">
                         <label for="bto01" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -68,17 +57,17 @@
                 </div>
                 <div class="row text-center" name="bto02" id="bto02">
                     <div class="form-chek">
-                        <input type="radio" class="form-chek-input " name="bto02" id="bto02S">
+                        <input type="radio" class="form-chek-input " name="bto02" id="bto02S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto02" id="bto02N">
+                        <input type="radio" class="form-chek-input" name="bto02" id="bto02N" value="não">
                         <label for="bto01" class="form-chek-lable me-5">
                             NÃO
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto02" id="bto02ND">
+                        <input type="radio" class="form-chek-input" name="bto02" id="bto02ND" value="N/D">
                         <label for="bto01" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -100,17 +89,17 @@
                 </div>
                 <div class="row text-center" name="bto03" id="bto03">
                     <div class="form-chek">
-                        <input type="radio" class="form-chek-input " name="bto03" id="bto03S">
+                        <input type="radio" class="form-chek-input " name="bto03" id="bto03S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto03" id="bto03N">
+                        <input type="radio" class="form-chek-input" name="bto03" id="bto03N" value="não">
                         <label for="bto01" class="form-chek-lable me-5">
                             NÃO
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto03" id="bto03ND">
+                        <input type="radio" class="form-chek-input" name="bto03" id="bto03ND" value="N/D">
                         <label for="bto01" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -132,17 +121,17 @@
                 </div>
                 <div class="row text-center" name="bto04" id="bto04">
                     <div class="form-chek">
-                        <input type="radio" class="form-chek-input " name="bto04" id="bto04S">
+                        <input type="radio" class="form-chek-input " name="bto04" id="bto04S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto04" id="bto04N">
+                        <input type="radio" class="form-chek-input" name="bto04" id="bto04N" value="não">
                         <label for="bto01" class="form-chek-lable me-5">
                             NÃO
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto04" id="bto04ND">
+                        <input type="radio" class="form-chek-input" name="bto04" id="bto04ND" value="N/D">
                         <label for="bto01" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -164,17 +153,17 @@
                 </div>
                 <div class="row text-center" name="bto05" id="bto05">
                     <div class="form-chek">
-                        <input type="radio" class="form-chek-input " name="bto05" id="bto05S">
+                        <input type="radio" class="form-chek-input " name="bto05" id="bto05S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto05" id="bto05N">
+                        <input type="radio" class="form-chek-input" name="bto05" id="bto05N" value="não">
                         <label for="bto01" class="form-chek-lable me-5">
                             NÃO
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto05" id="bto05ND">
+                        <input type="radio" class="form-chek-input" name="bto05" id="bto05ND" value="N/D">
                         <label for="bto01" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -196,17 +185,17 @@
                 </div>
                 <div class="row text-center" name="bto06" id="bto06">
                     <div class="form-chek">
-                        <input type="radio" class="form-chek-input " name="bto06" id="bto06S">
+                        <input type="radio" class="form-chek-input " name="bto06" id="bto06S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto06" id="bto06N">
+                        <input type="radio" class="form-chek-input" name="bto06" id="bto06N" value="não">
                         <label for="bto01" class="form-chek-lable me-5">
                             NÃO
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto06" id="bto06ND">
+                        <input type="radio" class="form-chek-input" name="bto06" id="bto06ND" value="N/D">
                         <label for="bto01" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -228,17 +217,17 @@
                 </div>
                 <div class="row text-center" name="bto07" id="bto07">
                     <div class="form-chek">
-                        <input type="radio" class="form-chek-input " name="bto07" id="bto07S">
+                        <input type="radio" class="form-chek-input " name="bto07" id="bto07S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto07" id="bto07N">
+                        <input type="radio" class="form-chek-input" name="bto07" id="bto07N" value="não">
                         <label for="bto01" class="form-chek-lable me-5">
                             NÃO
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto07" id="bto07ND">
+                        <input type="radio" class="form-chek-input" name="bto07" id="bto07ND" value="N/D">
                         <label for="bto01" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -260,17 +249,17 @@
                 </div>
                 <div class="row text-center" name="bto08" id="bto08">
                     <div class="form-chek">
-                        <input type="radio" class="form-chek-input " name="bto08" id="bto08S">
+                        <input type="radio" class="form-chek-input " name="bto08" id="bto08S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto08" id="bto08N">
+                        <input type="radio" class="form-chek-input" name="bto08" id="bto08N" value="não">
                         <label for="bto01" class="form-chek-lable me-5">
                             NÃO
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto08" id="bto08ND">
+                        <input type="radio" class="form-chek-input" name="bto08" id="bto08ND" value="N/D">
                         <label for="bto01" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -292,17 +281,17 @@
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" name="bto09" id="bto09">
-                        <input type="radio" class="form-chek-input " name="bto09" id="bto09S">
+                        <input type="radio" class="form-chek-input " name="bto09" id="bto09S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto09" id="bto09N">
+                        <input type="radio" class="form-chek-input" name="bto09" id="bto09N" value="não">
                         <label for="bto01" class="form-chek-lable me-5">
                             NÃO
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto09" id="bto09ND">
+                        <input type="radio" class="form-chek-input" name="bto09" id="bto09ND" value="N/D">
                         <label for="bto01" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -324,17 +313,17 @@
                 </div>
                 <div class="row text-center" name="bto10" id="bto10">
                     <div class="form-chek">
-                        <input type="radio" class="form-chek-input " name="bto10" id="bto10S">
+                        <input type="radio" class="form-chek-input " name="bto10" id="bto10S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto10" id="bto10N">
+                        <input type="radio" class="form-chek-input" name="bto10" id="bto10N" value="não">
                         <label for="bto01" class="form-chek-lable me-5">
                             NÃO
                         </label>
 
-                        <input type="radio" class="form-chek-input" name="bto10" id="bto10ND">
+                        <input type="radio" class="form-chek-input" name="bto10" id="bto10ND" value="N/D">
                         <label for="bto01" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -351,20 +340,30 @@
             </div>
 
             <div class="row" id="P11" name="P11">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <input type="texto" name="txtIdPETNr33" id="txtIdPETNr33" placeholder="IdPETNr33" class="form-control">
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="texto" name="txtIdOsNr33" id="txtIdOsNr33" placeholder="IdOsNr33" class="form-control">
+                    </div>
+
+                </div>
+                <hr>
                 <div class="col-sm-6 mt-2" id="Supervisor" name="Supervisor">
                     <input type="text" id="txtSuper" name="txtSuper" placeholder="Nome do responsavel" required>
                 </div>
-                <div class="col-sm-3 mt-2" id="Liberado" name="Liberado">        
+                <div class="col-sm-3 mt-2" id="Liberado" name="Liberado">
                     <p><b>Esta apto a continuar com as atividades ?</b></p>
                     <div class="form-check">
 
-                        <input class="form-check-input" type="radio" name="Permicao" id="Permicao1">
+                        <input class="form-check-input" type="radio" name="Permicao" id="Permicao1" value="sim">
                         <label class="form-check-label" for="flexRadioDefault1">
                             SIM
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="Permicao" id="Permicao2" >
+                        <input class="form-check-input" type="radio" name="Permicao" id="Permicao2" value="não">
                         <label class="form-check-label" for="flexRadioDefault2">
                             NÃO
                         </label>
@@ -377,15 +376,21 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-4 border-border-dark">
                         <label for="status">Status</label>
                         <select name="txtselect" id="txtselect" class="form-control">
                             <option value=""></option>
-                            <option value="1">Ativado</option>
-                            <option value="2">Desativado</option>
+                            <option value="Ativado">Ativado</option>
+                            <option value="Desativado">Desativado</option>
                         </select>
                     </div>
-                    <div class="col-sm-9">
+
+                    <div class="col-sm-4">
+                        <label for="img">Imagem</label>
+                        <input type="file" name="txtimg" id="txtimg" placeholder="Imagem" class="form-control">
+                    </div>
+
+                    <div class="col-sm-4">
                         <label for="OBS">OBS</label>
                         <textarea name="txtObs" id="txtObs" cols="15" rows="5" class="form-control"></textarea>
                     </div>
@@ -422,21 +427,21 @@
     let P11 = document.getElementById("P11");
 
 
-    function esconder() { 
-     
+    function esconder() {
 
-            P01.style.display = "block";
-            P02.style.display = "none";
-            P03.style.display = "none";
-            P04.style.display = "none";
-            P05.style.display = "none";
-            P06.style.display = "none";
-            P07.style.display = "none";
-            P08.style.display = "none";
-            P09.style.display = "none";
-            P10.style.display = "none";
-            P11.style.display = "none";       
-          
+
+        P01.style.display = "block";
+        P02.style.display = "none";
+        P03.style.display = "none";
+        P04.style.display = "none";
+        P05.style.display = "none";
+        P06.style.display = "none";
+        P07.style.display = "none";
+        P08.style.display = "none";
+        P09.style.display = "none";
+        P10.style.display = "none";
+        P11.style.display = "none";
+
     }
 
 
@@ -444,11 +449,9 @@
         let text1 = document.getElementById("bto01S");
         let text2 = document.getElementById("bto01N");
         let text3 = document.getElementById("bto01ND");
-        if (text1.checked == false && text2.checked == false && text3.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
             P01.style.display = "none";
             P02.style.display = "block";
             P03.style.display = "none";
@@ -467,22 +470,20 @@
         let text1 = document.getElementById("bto02S");
         let text2 = document.getElementById("bto02N");
         let text3 = document.getElementById("bto02ND");
-        if (text1.checked == false && text2.checked == false && text3.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
-        P01.style.display = "none";
-        P02.style.display = "none";
-        P03.style.display = "block";
-        P04.style.display = "none";
-        P05.style.display = "none";
-        P06.style.display = "none";
-        P07.style.display = "none";
-        P08.style.display = "none";
-        P09.style.display = "none";
-        P10.style.display = "none";
-        P11.style.display = "none";
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = "none";
+            P02.style.display = "none";
+            P03.style.display = "block";
+            P04.style.display = "none";
+            P05.style.display = "none";
+            P06.style.display = "none";
+            P07.style.display = "none";
+            P08.style.display = "none";
+            P09.style.display = "none";
+            P10.style.display = "none";
+            P11.style.display = "none";
         }
     }
 
@@ -490,22 +491,20 @@
         let text1 = document.getElementById("bto03S");
         let text2 = document.getElementById("bto03N");
         let text3 = document.getElementById("bto03ND");
-        if (text1.checked == false && text2.checked == false && text3.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
-        P01.style.display = "none";
-        P02.style.display = "none";
-        P03.style.display = "none";
-        P04.style.display = "block";
-        P05.style.display = "none";
-        P06.style.display = "none";
-        P07.style.display = "none";
-        P08.style.display = "none";
-        P09.style.display = "none";
-        P10.style.display = "none";
-        P11.style.display = "none";
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = "none";
+            P02.style.display = "none";
+            P03.style.display = "none";
+            P04.style.display = "block";
+            P05.style.display = "none";
+            P06.style.display = "none";
+            P07.style.display = "none";
+            P08.style.display = "none";
+            P09.style.display = "none";
+            P10.style.display = "none";
+            P11.style.display = "none";
         }
     }
 
@@ -513,22 +512,20 @@
         let text1 = document.getElementById("bto04S");
         let text2 = document.getElementById("bto04N");
         let text3 = document.getElementById("bto04ND");
-        if (text1.checked == false && text2.checked == false && text3.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
-        P01.style.display = "none";
-        P02.style.display = "none";
-        P03.style.display = "none";
-        P04.style.display = "none";
-        P05.style.display = "block";
-        P06.style.display = "none";
-        P07.style.display = "none";
-        P08.style.display = "none";
-        P09.style.display = "none";
-        P10.style.display = "none";
-        P11.style.display = "none";
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = "none";
+            P02.style.display = "none";
+            P03.style.display = "none";
+            P04.style.display = "none";
+            P05.style.display = "block";
+            P06.style.display = "none";
+            P07.style.display = "none";
+            P08.style.display = "none";
+            P09.style.display = "none";
+            P10.style.display = "none";
+            P11.style.display = "none";
         }
     }
 
@@ -536,22 +533,20 @@
         let text1 = document.getElementById("bto05S");
         let text2 = document.getElementById("bto05N");
         let text3 = document.getElementById("bto05ND");
-        if (text1.checked == false && text2.checked == false && text3.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
-        P01.style.display = "none";
-        P02.style.display = "none";
-        P03.style.display = "none";
-        P04.style.display = "none";
-        P05.style.display = "none";
-        P06.style.display = "block";
-        P07.style.display = "none";
-        P08.style.display = "none";
-        P09.style.display = "none";
-        P10.style.display = "none";
-        P11.style.display = "none";
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = "none";
+            P02.style.display = "none";
+            P03.style.display = "none";
+            P04.style.display = "none";
+            P05.style.display = "none";
+            P06.style.display = "block";
+            P07.style.display = "none";
+            P08.style.display = "none";
+            P09.style.display = "none";
+            P10.style.display = "none";
+            P11.style.display = "none";
         }
     }
 
@@ -559,22 +554,20 @@
         let text1 = document.getElementById("bto06S");
         let text2 = document.getElementById("bto06N");
         let text3 = document.getElementById("bto06ND");
-        if (text1.checked == false && text2.checked == false && text3.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
-        P01.style.display = "none";
-        P02.style.display = "none";
-        P03.style.display = "none";
-        P04.style.display = "none";
-        P05.style.display = "none";
-        P06.style.display = "none";
-        P07.style.display = "block";
-        P08.style.display = "none";
-        P09.style.display = "none";
-        P10.style.display = "none";
-        P11.style.display = "none";
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = "none";
+            P02.style.display = "none";
+            P03.style.display = "none";
+            P04.style.display = "none";
+            P05.style.display = "none";
+            P06.style.display = "none";
+            P07.style.display = "block";
+            P08.style.display = "none";
+            P09.style.display = "none";
+            P10.style.display = "none";
+            P11.style.display = "none";
         }
     }
 
@@ -582,22 +575,20 @@
         let text1 = document.getElementById("bto07S");
         let text2 = document.getElementById("bto07N");
         let text3 = document.getElementById("bto07ND");
-        if (text1.checked == false && text2.checked == false && text3.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
-        P01.style.display = "none";
-        P02.style.display = "none";
-        P03.style.display = "none";
-        P04.style.display = "none";
-        P05.style.display = "none";
-        P06.style.display = "none";
-        P07.style.display = "none";
-        P08.style.display = "block";
-        P09.style.display = "none";
-        P10.style.display = "none";
-        P11.style.display = "none";
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = "none";
+            P02.style.display = "none";
+            P03.style.display = "none";
+            P04.style.display = "none";
+            P05.style.display = "none";
+            P06.style.display = "none";
+            P07.style.display = "none";
+            P08.style.display = "block";
+            P09.style.display = "none";
+            P10.style.display = "none";
+            P11.style.display = "none";
         }
     }
 
@@ -605,22 +596,20 @@
         let text1 = document.getElementById("bto08S");
         let text2 = document.getElementById("bto08N");
         let text3 = document.getElementById("bto08ND");
-        if (text1.checked == false && text2.checked == false && text3.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
-        P01.style.display = "none";
-        P02.style.display = "none";
-        P03.style.display = "none";
-        P04.style.display = "none";
-        P05.style.display = "none";
-        P06.style.display = "none";
-        P07.style.display = "none";
-        P08.style.display = "none";
-        P09.style.display = "block";
-        P10.style.display = "none";
-        P11.style.display = "none";
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = "none";
+            P02.style.display = "none";
+            P03.style.display = "none";
+            P04.style.display = "none";
+            P05.style.display = "none";
+            P06.style.display = "none";
+            P07.style.display = "none";
+            P08.style.display = "none";
+            P09.style.display = "block";
+            P10.style.display = "none";
+            P11.style.display = "none";
         }
     }
 
@@ -628,22 +617,20 @@
         let text1 = document.getElementById("bto09S");
         let text2 = document.getElementById("bto09N");
         let text3 = document.getElementById("bto09ND");
-        if (text1.checked == false && text2.checked == false && text3.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
-        P01.style.display = "none";
-        P02.style.display = "none";
-        P03.style.display = "none";
-        P04.style.display = "none";
-        P05.style.display = "none";
-        P06.style.display = "none";
-        P07.style.display = "none";
-        P08.style.display = "none";
-        P09.style.display = "none";
-        P10.style.display = "block";
-        P11.style.display = "none";
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = "none";
+            P02.style.display = "none";
+            P03.style.display = "none";
+            P04.style.display = "none";
+            P05.style.display = "none";
+            P06.style.display = "none";
+            P07.style.display = "none";
+            P08.style.display = "none";
+            P09.style.display = "none";
+            P10.style.display = "block";
+            P11.style.display = "none";
         }
     }
 
@@ -651,42 +638,37 @@
         let text1 = document.getElementById("bto10S");
         let text2 = document.getElementById("bto10N");
         let text3 = document.getElementById("bto10ND");
-        if (text1.checked == false && text2.checked == false && text3.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
-        P01.style.display = "none";
-        P02.style.display = "none";
-        P03.style.display = "none";
-        P04.style.display = "none";
-        P05.style.display = "none";
-        P06.style.display = "none";
-        P07.style.display = "none";
-        P08.style.display = "none";
-        P09.style.display = "none";
-        P10.style.display = "none";
-        P11.style.display = "block";
+        if (text1.checked == false && text2.checked == false && text3.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
+            P01.style.display = "none";
+            P02.style.display = "none";
+            P03.style.display = "none";
+            P04.style.display = "none";
+            P05.style.display = "none";
+            P06.style.display = "none";
+            P07.style.display = "none";
+            P08.style.display = "none";
+            P09.style.display = "none";
+            P10.style.display = "none";
+            P11.style.display = "block";
         }
     }
 
     function cadastrar() {
         let text1 = document.getElementById("Permicao1");
         let text2 = document.getElementById("Permicao2");
-        if (text1.checked == false && text2.checked == false) 
-        {
-            alert("Campo obrigatorio");            
-        }
-        else{
+        if (text1.checked == false && text2.checked == false) {
+            alert("Campo obrigatorio");
+        } else {
             let text = document.getElementById("P11");
-            if (text.value=='') {
+            if (text.value == '') {
                 alert("Per6, deve ser preenchida");
-                        
-            }
-            else{
-                let form=document.getElementById("frmFormularioNr33")
+
+            } else {
+                let form = document.getElementById("frmFormularioNr33")
                 form.action = "Cadastro_Nr33.php";
-                form.method= "post";
+                form.method = "post";
                 form.submit();
             }
         }

@@ -27,7 +27,7 @@ print_r($_POST);
     try 
     {
         $sql = $conn->prepare("
-            insert into nr33
+            insert into nr_33
             (
                 Id_pet_Nr33,
                 Id_OrdemServico_Nr33,
@@ -62,7 +62,7 @@ print_r($_POST);
                 :Per9_Nr33,
                 :Per10_Nr33,
                 :responsavel_Nr33,
-                :Assinatura_Nr3,
+                :Assinatura_Nr33,
                 :serti_Nr33,
                 :obs_Nr33,
                 :status_Nr33
@@ -81,8 +81,8 @@ print_r($_POST);
             ':Per8_Nr33'=>$per8,
             ':Per9_Nr33'=> $per9,
             ':Per10_Nr33'=>$per10,
-            ':responsavel_Nr10'=>$nomeSuper,
-            ':Assinatura_Nr10'=> $assina,
+            ':responsavel_Nr33'=>$nomeSuper,
+            ':Assinatura_Nr33'=> $assina,
             ':serti_Nr33'=>$image,
             ':obs_Nr33'=> $Obs,
             ':status_Nr33'=>$status
