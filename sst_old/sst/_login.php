@@ -56,12 +56,12 @@
                         $_SESSION['idUsuario'] = $row[0];
                         $_SESSION['nomeUsuario'] = $row[1];
 
-                        header('Location:_sistemaFuncionario.php');
+                        header('Location:_funcionario.php');
                     }
                 }
                 else
                 {
-                    $mensagem = 'Erro, usuário ou senha inválido';
+                    echo "deu ruim";
                 }
             }
         }

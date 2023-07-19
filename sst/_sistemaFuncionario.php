@@ -19,7 +19,7 @@
             
                     <?php
                     
-                        include_once("_lateral.php")
+                        include_once("_lateralFuncionario.php")
 
                     ?>
             
@@ -42,7 +42,7 @@
                     <div class="row border border-success" style="height: 660px; margin-top:20px; justify-content: center; text-align: center;
                     ">
 
-                        <div class="col-sm-11 border border-danger" style="height: 640px; margin-top: 5px; background-color: white; ">
+                        <div class="col-sm-11 border border-danger" style="height: 640px; margin-top: 5px; background-color: white ">
 
                             <?php
                         
