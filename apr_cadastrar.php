@@ -1,6 +1,10 @@
-<? php
+<?php
  include_once('conexao.php');
- 
+ echo '<pre>';
+ print_r($_POST);
+ echo '</pre>';
+
+ try{
  $sql = $conn->query("insert into apr
                       ( setor_apr,
 					    grau_de_risco,
@@ -20,7 +24,7 @@
 						'".$_POST['risco_apr']."',
 						'".$_POST['prev_apr']."',
 						'".$_POST['obs_apr']."',
-						'".$_POST['status_apr']."',
+						'".$_POST['status_apr']."'
 						)"
 					);
                   
@@ -32,7 +36,7 @@
                            }
                         
 
-                        } catch (PDOException $ex) {
+						}catch (PDOException $ex) {
                            echo $ex->getMessage();
                         }
 

@@ -16,28 +16,28 @@ try {
           insert into OS
           (Id_funcionario_OrdemServico,
            Id_Sesmet_OrdemServico,
-           Id_Nr,
+           Nr_OrdemServico,
            nome_ordemServico,
            descricao_OrdemServico,
-           obs_OrdemServico,
+           obs_OrdemServico_va,
            status_OrdemServico
         )values(
             :Id_funcionario_OrdemServico,
             :Id_Sesmet_OrdemServico,
-            :Id_Nr10,
+            :Nr_OrdemServico,
             :nome_ordemServico,
             :descricao_OrdemServico,
-            :obs_OrdemServico,
+            :obs_OrdemServico_va,
             :status_OrdemServico
           )
     ");
     $sql->execute(Array(
         ':Id_funcionario_OrdemServico'=>$idfuncos,
         ':Id_Sesmet_OrdemServico'=>$idsesmet,
-        ':Id_Nr10'=>$nros,
+        ':Nr_OrdemServico'=>$nros,
         ':nome_ordemServico'=>$atividadeos,
         ':descricao_OrdemServico'=>$descos,
-        ':obs_OrdemServico'=>$obsos,
+        ':obs_OrdemServico_va'=>$obsos,
         ':status_OrdemServico'=>$statusos,
 
     ));
