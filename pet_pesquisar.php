@@ -7,17 +7,32 @@
     <title>Document</title>
 </head>
 <body>
-    
-
-
+    <div class="row">
+	   <div class="col-sm-6">
+	      <h1> PET: $row[0]</h1>
+		</div>
+		<div class="col-sm-6">
+           <h1>OS: 2</H1>
+        </div>
+     </div>		
 <?php
 include_once('conexao.php');
-
+echo "
+    <div class='row'>
+	   <div class='col-sm-6 h-75'>
+	      <h1> PET: $row[0]</h1>
+		</div>
+		<div class='col-sm-6 h-75'>
+           <h1>OS: 2</H1>
+        </div>
+     </div>	
+	 ";
 try {
     $sql = $conn->query('select * from pet where id_pet = 2');
     if($sql->rowCount()>=1){
         foreach ($sql as $row) {
-       echo "
+       $documento = "
+	   
        <table class='table table-striped'>
        <thead>
          <tr>
@@ -220,11 +235,17 @@ try {
        </tbody>
      </table>
      
-     
-     
        ";
-
+       echo $documento;
     }
+	echo "
+	<div class='col-sm-12 text-center mt-1'>
+      <button name='btoCadastrar' id='btAnterior' class='btn btn-success'formaction='exportarpdf.php?doc=$documento'>Exportar PDF</button>
+      <button name='btoCadastrar' id='btoProximo' class='btn btn-success' onclick='Cadastrar()'>Finalizar</button>
+    </div>
+  </div>
+  </div>
+  ";
 }
 } catch (\Throwable $th) {
     //throw $th;
