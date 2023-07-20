@@ -341,18 +341,18 @@
 
             <div class="row" id="P11" name="P11">
                 <div class="row">
-                    <div class="col-sm-2">
+                    <div class="col-sm-4">
                         <input type="texto" name="txtIdPETNr33" id="txtIdPETNr33" placeholder="IdPETNr33" class="form-control">
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-4">
                         <input type="texto" name="txtIdOsNr33" id="txtIdOsNr33" placeholder="IdOsNr33" class="form-control">
                     </div>
-
+                    <div class="col-sm-4 mt-2" id="Supervisor" name="Supervisor">
+                        <input type="text" id="txtSuper" name="txtSuper" placeholder="Nome do responsavel" class="form-control" required>
+                    </div>
                 </div>
                 <hr>
-                <div class="col-sm-6 mt-2" id="Supervisor" name="Supervisor">
-                    <input type="text" id="txtSuper" name="txtSuper" placeholder="Nome do responsavel" required>
-                </div>
+
                 <div class="col-sm-3 mt-2" id="Liberado" name="Liberado">
                     <p><b>Esta apto a continuar com as atividades ?</b></p>
                     <div class="form-check">

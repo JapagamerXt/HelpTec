@@ -2,7 +2,7 @@
     include_once("conexao.php");
 
     if ($_POST) 
-    {
+    {   $Id = $_POST['txtID'];
         $nome = $_POST['txtnome'];
         $cpf = $_POST['txtcpf'];
         $nascimento = $_POST['txtdatanas'];
@@ -17,7 +17,7 @@
         {
             $sql = $conn->prepare("
                 update Sesmet set
-                nome_Sesmet=:nome_Sesmet
+                nome_Sesmet=:nome_Sesmet,
                 nascimento_Sesmet=:nascimento_Sesmet,
                 genero_Sesmet=:genero_Sesmet,
                 cpf_Sesmet= :cpf_Sesmet,
@@ -31,6 +31,7 @@
             ");
 
             $sql->execute(Array(
+                ':Id_Sesmet'=> $Id, 
                 ':nome_Sesmet'=> $nome,
                 ':nascimento_Sesmet'=>$nascimento,
                 ':genero_Sesmet'=> $genero,
@@ -40,7 +41,6 @@
                 ':senha_Sesmet'=> $senha,
                 ':obs_Sesmet'=> $Obs, 
                 ':status_Sesmet'=> $status,
-
             ));
 
             if ($sql->rowCount()>=1)

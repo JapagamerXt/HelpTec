@@ -15,12 +15,7 @@
                 <div class="col-sm-4 ">
                     <input type="texto" name="txtIDNr10" id="txtIDNr10" placeholder="IDNr10" class="form-control">
                 </div>
-                <div class="col-sm-4">
-                    <input type="texto" name="txtIdAprNr10" id="txtIdAprNr10" placeholder="IdAprNr10" class="form-control">
-                </div>
-                <div class="col-sm-4">
-                    <input type="texto" name="txtIdOsNr10" id="txtIdOsNr10" placeholder="IdOsNr10" class="form-control">
-                </div>
+
             </div>
             <hr>
 
@@ -99,7 +94,7 @@
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" id="bto03" name="Rbto03">
-                        <input type="radio" class="form-chek-input " name="Rbto03" id="bto03S" value="sim"> 
+                        <input type="radio" class="form-chek-input " name="Rbto03" id="bto03S" value="sim">
                         <label for="bto01" class="form-chek-lable me-5">
                             SIM
                         </label>
@@ -254,29 +249,36 @@
             </div>
 
             <div class="row" id="P8" name="P8">
-                <div class="col-sm-6 mt-2" id="Supervisor" name="Supervisor">
-                    <input type="text" id="txtSuper" name="txtSuper" placeholder="Nome do responsavel" required>
-
-                    <div class="row">
-                        <div class="col-sm-3 mt-2" id="Liberado" name="Liberado">
-                            <p><b>Esta apto a continuar com as atividades ?</b></p>
-                            <div class="form-check">
-
-                                <input class="form-check-input" type="radio" name="Permicao" id="Permicao1" value="sim">
-                                <label class="form-check-label" for="flexRadioDefault1">
-                                    SIM
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Permicao" id="Permicao2" value="não">
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                    NÃO
-                                </label>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-4 mt-2">
+                        <input type="texto" name="txtIdAprNr10" id="txtIdAprNr10" placeholder="IdAprNr10" class="form-control">
+                    </div>
+                    <div class="col-sm-4 mt-2">
+                        <input type="texto" name="txtIdOsNr10" id="txtIdOsNr10" placeholder="IdOsNr10" class="form-control">
+                    </div>
+                    <div class="col-sm-4 mt-2" id="Supervisor" name="Supervisor">
+                        <input type="text" id="txtSuper" name="txtSuper" placeholder="Nome do responsavel"  class="form-control" required>
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-sm-3 mt-2" id="Liberado" name="Liberado">
+                        <p><b>Esta apto a continuar com as atividades ?</b></p>
+                        <div class="form-check">
+
+                            <input class="form-check-input" type="radio" name="Permicao" id="Permicao1" value="sim">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                SIM
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Permicao" id="Permicao2" value="não">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                NÃO
+                            </label>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-sm-3">
                     <label for="img">Imagem</label>
