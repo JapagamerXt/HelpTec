@@ -41,10 +41,10 @@
                 <div class="col-sm-1">
                     <label for="Genero">Genero</label>
                     <select name="txtGenero" id="txtGenero" class=" form-control text-center" aria-label="Default select example">
-                    <option selected></option>
-                        <option value="1">M</option>
-                        <option value="2">F</option>
-                        <option value="3">N</option>
+                        <option selected></option>
+                        <option value="M">M</option>
+                        <option value="F">F</option>
+                        <option value="N">N</option>
                     </select>
                 </div>
             </div>
@@ -62,9 +62,9 @@
                 <div class="col-sm-3">
                     <label for="status">Status</label>
                     <select name="txtstatus" id="txtstatus" class="form-control">
-                        <option value=""></option>
-                        <option value="1">Ativado</option>
-                        <option value="2">Desativado</option>
+                        <option value=""> -- Selecione -- </option>
+                        <option value="Ativado">Ativado</option>
+                        <option value="Desativado">Desativado</option>
                     </select>
                 </div>
 

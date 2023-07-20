@@ -379,7 +379,7 @@
                     <div class="col-sm-4 border-border-dark">
                         <label for="status">Status</label>
                         <select name="txtselect" id="txtselect" class="form-control">
-                            <option value=""></option>
+                            <option value=""> -- Selecione -- </option>
                             <option value="Ativado">Ativado</option>
                             <option value="Desativado">Desativado</option>
                         </select>

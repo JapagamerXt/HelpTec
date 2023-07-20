@@ -65,7 +65,7 @@
                 <div class="col-sm-3">
                     <label for="status">Status</label>
                     <select name="txtselect" id="txtselect" class="form-control">
-                        <option value=""> -- Selecione --</option>
+                        <option value=""> -- Selecione -- </option>
                         <option value="Ativado">Ativado</option>
                         <option value="Desativado">Desativado</option>
                     </select>
