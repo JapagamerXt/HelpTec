@@ -10,7 +10,7 @@
         $genero = $_POST['txtGenero'];
         $login = $_POST['txtlogin'];
         $senha = $_POST['txtsenha'];
-        $status = $_POST['txtstatus'];
+        $status = $_POST['txtselect'];
         $imagem = $_POST['txtimg'];
         $Obs = $_POST['txtObs'];
 
@@ -23,7 +23,7 @@
                 genero_Funcionario=:genero_Funcionario,
                 cpf_Funcionario=:cpf_Funcionario,
                 login_Funcionario=:login_Funcionario,
-                img_Funcionario=:img_Funcionario,
+                img_Funicionario=:img_Funicionario,
                 senha_Funcionario=:senha_Funcionario,
                 obs_Funcionario= :obs_Funcionario,
                 status_Funcionario=:status_Funcionario
@@ -37,12 +37,10 @@
                 ':genero_Funcionario'=> $genero,
                 ':cpf_Funcionario'=> $cpf,
                 ':login_Funcionario'=> $login,
-                ':img_Funcionario'=> $imagem,
+                ':img_Funicionario'=> $imagem,
                 ':senha_Funcionario'=> $senha,
                 ':obs_Funcionario'=> $Obs, 
                 ':status_Funcionario'=> $status,
-
-
             ));
 
             if ($sql->rowCount()>=1)
@@ -64,4 +62,4 @@
 ?>
 <hr>
 <img src="oks.jfif" alt="">
-<button> <a href="frm_Usuario.php">Voltar</a> 
+<button> <a href="frmUsuario.php">Voltar</a> 

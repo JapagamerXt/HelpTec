@@ -57,7 +57,7 @@
             if ($sql->rowCount()>=1)
             {
                 echo'<script>alert("Cadastro realizado com sucesso")</script>';
-                header('Location:frmSesmet.php');
+                
               
             }
             
@@ -66,4 +66,11 @@
             echo $ex->getMessage();
         }
     }
+    else
+    {
+        header('Location:frmSesmet.php');
+    }
 ?>
+<hr>
+<img src="oks.jfif" alt="">
+<button> <a href="frmSesmet.php">Voltar</a> 

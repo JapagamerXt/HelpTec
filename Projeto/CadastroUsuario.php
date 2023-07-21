@@ -23,7 +23,7 @@
                     genero_Funcionario,
                     cpf_Funcionario,
                     login_Funcionario,
-                    img_Funcionario,
+                    img_Funicionario,
                     senha_Funcionario,
                     obs_Funcionario,
                     status_Funcionario
@@ -35,7 +35,7 @@
                     :genero_Funcionario,
                     :cpf_Funcionario,
                     :login_Funcionario,
-                    :img_Funcionario,
+                    :img_Funicionario,
                     :senha_Funcionario,
                     :obs_Funcionario,
                     :status_Funcionario
@@ -47,7 +47,7 @@
                 ':genero_Funcionario'=> $genero,
                 ':cpf_Funcionario'=> $cpf,
                 ':login_Funcionario'=> $login,
-                ':img_Funcionario'=> $imagem,
+                ':img_Funicionario'=> $imagem,
                 ':senha_Funcionario'=> $senha,
                 ':obs_Funcionario'=> $Obs, 
                 ':status_Funcionario'=> $status,
@@ -57,7 +57,7 @@
             if ($sql->rowCount()>=1)
             {
                 echo'<script>alert("Cadastro realizado com sucesso")</script>';
-                header('Location:frmUsuario.php');
+                
               
             }
             
@@ -66,4 +66,11 @@
             echo $ex->getMessage();
         }
     }
+    else
+    {
+        header('Location:frmUsuario.php');
+    }
 ?>
+<hr>
+<img src="oks.jfif" alt="">
+<button> <a href="frmUsuario.php">Voltar</a> 
