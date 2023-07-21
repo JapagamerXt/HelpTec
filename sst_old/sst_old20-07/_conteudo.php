@@ -2,9 +2,9 @@
 <?php
     if(isset($_GET['tela']))
     {
-        if($_GET['tela']=='ordens')
+        if($_GET['tela']=='home')
         {
-            include_once('frmSesmet.php');
+            include_once('_funcionario.php');
         }
 
         else if($_GET['tela']=='funcionario')

@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="row border border-success "style="background-color:#1c5052">
+    <div class="row border border-danger ">
 
         <!-- Logo -->
         <div class="col-sm-12 border border-danger" style="height: 80px; margin-top: 20px; text-align: center;">
@@ -22,25 +22,25 @@
         <!-- Menu -->
 
         <!--  -->
-        <a href="_sistema.php?tela=ordens" style="height: 40px; margin-top: 40px; text-decoration:none; color: white">
+        <a href="_sistema.php" style="height: 40px; margin-top: 40px; text-decoration:none; color: white">
             <div class="subMenu"><img src="img/prancheta.png" alt="" style="color:white; text-align:center; ">
              Ordens</div>
         </a>
 
-        <!-- <a href="_sistemaSesmet.php?tela=funcionario" style="height: 40px;  text-decoration:none; color: white">
+        <a href="_sistema.php?tela=funcionario" style="height: 40px;  text-decoration:none; color: white">
             <div class="subMenu"><img src="img/func.png" alt="" style="color:white; text-align:center; ">
              Funcionários</div>
         </a>
 
-        <a href="_sistemaSesmet.php" style="height: 40px;  text-decoration:none; color: white">
+        <a href="_sistema.php" style="height: 40px;  text-decoration:none; color: white">
             <div class="subMenu"><img src="img/losango.png" alt="" style="color:white; text-align:center; ">
              NRS</div>
         </a>
 
-        <a href="_sistemaSesmet.php" style="height: 40px;  text-decoration:none; color: white">
+        <a href="_sistema.php" style="height: 40px;  text-decoration:none; color: white">
             <div class="subMenu"><img src="img/historia.png" alt="" style="color:white; text-align:center; ">
              Histórico</div>
-        </a> -->
+        </a>
 
     </div>
     

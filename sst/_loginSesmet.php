@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,6 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="bootstrap.css">
 
-
     <style>
 
         @media screen and (max-width: 775px) {
@@ -15,6 +15,7 @@
             display: none;
         }
         }
+
     </style>
 
 </head>
@@ -31,10 +32,10 @@
 
         try {
             $sql = $conn->query('
-                select * from usuario
+                select * from sesmet
                 where 
-                    usuario_usuario = "'.$login.'" and
-                    senha_usuario = "'.$senha.'"
+                    usuario_Sesmet = "'.$login.'" and
+                    senha_Sesmet = "'.$senha.'"
             ');
 
             if($sql->rowCount()==1)
@@ -45,7 +46,7 @@
                     $_SESSION['idUsuario'] = $row[0];
                     $_SESSION['nomeUsuario'] = $row[1];
 
-                    header('Location:_sistema.php');
+                    header('Location:_sistemaSesmet.php');
                 }
             }
 
@@ -71,7 +72,6 @@
     
             <div class="row " style="height: 770px">
 
-
                 <!-- Entrada do login -->
                 <div class="col-sm-12 primary" style="height: 770px; ">
             
@@ -82,16 +82,14 @@
                         <!-- iMAGEM -->
 
                                 <div class="col-sm-4 " style="height: 500px;">                        
-                                    <img src="img/constru.png" style="margin-top: 60px" alt="">
+                                    <img src="img/sesmet.png" style="margin-top: 60px" alt="">
                                 </div>
-
-
 
                         <div class="col-sm-1 " style="height: 500px;"></div>
                             <!-- Login -->
                             <div class="col-sm-4 " style="height: 500px; background-color: #c7ede8; border-radius: 10px;">
                         
-                                <div class="col-sm-12 " style=" margin-top:20px; color:#134b53; "><h2 style="margin-top:55px;"><b>Login Funcionário</b> </h2> </div>
+                                <div class="col-sm-12 " style=" margin-top:20px; color:#134b53; "><h2 style="margin-top:55px;"><b>Login Sesmet</b> </h2> </div>
                                 <div class="col-sm-12 " ><h6 style="color:#383939;"><b>Digite os dados de acesso nos campos abaixo
                                 </b> </h6> </div>
                                 <div class="col-sm-12 " style="height: 25px;"><h6 style="color:#134b53; margin-top: 50px"><b>Login
@@ -117,7 +115,7 @@
                                         <!-- Linkar com tela de Cadastro de usuário -->
                                         <div class="text-center text-lg-start" style="">
                                             <div class="col-sm-12">
-                                                <button class="btn btn-outline-danger btn-lg" style="text-align: center;" formaction="_login.php">Login</button>
+                                                <button class="btn btn-outline-danger btn-lg" style="text-align: center;" formaction="_loginSesmet.php">Login</button>
                                                 <p class="small fw-bold mt-2 pt-1 mb-0">Não possue conta?<a href="#!" class="">             Cadastre-se </a></p>
                                             </div>
                                         </div>
@@ -129,7 +127,6 @@
                             </div>
 
                         <div class="col-sm-2 " ></div>
-
                 
                     </div>
 

@@ -15,7 +15,7 @@
             <div class="row border border-Danger" style="height: 770px">
 
                 <!-- Lateral -->
-                <div class="col-sm-2 border border-success " style="background-color: #1c5052">
+                <div class="col-sm-2 border border-success bg-secondary" style="height: 770px; background-color: white">
             
                     <?php
                     

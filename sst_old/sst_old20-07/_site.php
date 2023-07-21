@@ -44,22 +44,20 @@
 
             <!-- Quem Somos -->
             <div class="col-sm-2 border border-danger"></div>
-            <div class="col-sm-1 border border-danger"><h6 style="color: white; margin-top: 40px">Fale c    onosco</h6 ></div>
+            <div class="col-sm-1 border border-danger"><h6 style="color: white; margin-top: 40px">Fale conosco</h6 ></div>
             <div class="col-sm-1 border border-danger"><h6 style="color: white; margin-top: 40px">Sobre nós</h6 ></div>
             <div class="col-sm-1 border border-danger"><h6 style="color: white; margin-top: 40px">Serviços</h6 ></div>
             <div class="col-sm-1 border border-danger"></div>   
-
             <div class="col-sm-1 border border-danger">
-                <a class="btn btn-outline-light" style="margin-top: 30px" href="_login.php" role="button">Técnico</a >
+                <button type="button" class="btn btn-outline-light" style="margin-top: 30px">Técnico</button>
             </div>  
-
             <div class="col-sm-1 border border-danger">
-                <a class="btn btn-outline-warning" style="margin-top: 30px" href="_loginSesmet.php" role="button">Sesmet</a >
-            </div>
-
+                <button type="button" class="btn btn-outline-warning" style="margin-top: 30px">Sesmet</button>
+            </div>  
             <div class="col-sm-2 border border-danger"></div>
 
         </div>
+
 
         <!-- Conteúdo -->
         <div class="row border border-danger" style="height: 495px; background-color: #ffffff">
@@ -78,23 +76,14 @@
                 </h2></div>
                 <div class="row border border-danger" style="height:70px">
             
-                    <h4 style="margin-top: 30px;height:100px; color:#385723; text-align: center;"> <b>Faça Login e acesse o seu painel</b>
+                    <h4 style="margin-top: 20px;height:100px; color:#385723; text-align: center;"> <b>Faça Login e acesse o seu painel</b>
                     </h4>
                 </div>
 
-                <div class="row border border-success" style="height:70px;text-align: center; margin-top: 15px">
+                <div class="row border border-danger" style="height:70px">
             
-                    <div class="col-sm-6 border border-danger" style="height:70px; text-align-center;">
-
-                        <img src="img/ferramentas.png" alt="" style="margin-top: 5px;">
-
-                    </div>
-                    <div class="col-sm-6 border border-danger" style="height:70px; text-align-center; ">
-
-                        <img src="img/use.png" alt="" >
-            
-                
-                    </div>
+                    <div class="col-sm-6 border border-danger" style="height:70px"></div>
+                    <div class="col-sm-6 border border-danger" style="height:70px"></div>
             
                 </div>
 
@@ -111,7 +100,7 @@
 
                 <div class="col-sm-12 border border-danger" style="height: 80px; text-align:center">
             
-                    <img src="img/logo2.png" alt="" style="margin-top: 10px;">
+                    <img src="img/logo2.png" alt="" style="margin-top: 10px; ">
 
                 </div>
 
@@ -134,3 +123,15 @@
     
 </body>
 </html>
+
+<!-- <div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+  </label>
+</div> -->

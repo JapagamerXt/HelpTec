@@ -10,9 +10,9 @@
 </head>
 <body>
 
-        <div class="col-sm-1 border border-danger">
-            <a class="btn btn-outline-success" style="margin-top: 30px" href="_sistema.php" role="button">Home</a >
-        </div>
+    <div class="col-sm-2" style="margin-top:20px; background-color: white ">
+        <button type="button" class="btn btn-outline-secondary btn-sn">Home <a href="_sistema.php"></a></button>
+    </div>
 
 </body>
 </html>

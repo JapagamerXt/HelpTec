@@ -15,11 +15,11 @@
             <div class="row border border-Danger" style="height: 770px">
 
                 <!-- Lateral -->
-                <div class="col-sm-2 border border-success " style="background-color: #1c5052">
+                <div class="col-sm-2 border border-success" style="background-color: #213635">
             
                     <?php
                     
-                        include_once("_lateral.php")
+                        include_once("_lateralSesmet.php")
 
                     ?>
             
@@ -32,7 +32,7 @@
 
                     <?php
                     
-                    include_once("_topo.php")
+                    include_once("_topoSesmet.php")
 
                     ?>
 
@@ -42,7 +42,7 @@
                     <div class="row border border-success" style="height: 660px; margin-top:20px; justify-content: center; text-align: center;
                     ">
 
-                        <div class="col-sm-11 border border-danger" style="height: 640px; margin-top: 5px; background-color: white; ">
+                        <div class="col-sm-11 border border-danger" style="height: 640px; margin-top: 5px; background-color: white ">
 
                             <?php
                         
