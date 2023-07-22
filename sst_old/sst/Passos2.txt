@@ -1,0 +1,15 @@
+Se a tela for igual a variável que declarei anteriormente na tela LATERAL 
+Ela abre uma tela na página de CONTEÚDO, tendo que mudar o nome que foi atribuido a página.
+
+Nesse sentido a tela de conteudo e lateral devem ser alteradas em conjunto.
+
+Icons - 
+Cadastro de usuario e sesmet.
+Abrir ordem.
+Ordens.
+Histórico.
+
+16Pix
+
+Criar as telas de Login que faltam para 
+O sistemaSesmet.php

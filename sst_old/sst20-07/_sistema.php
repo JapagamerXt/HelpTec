@@ -15,24 +15,24 @@
             <div class="row border border-Danger" style="height: 770px">
 
                 <!-- Lateral -->
-                <div class="col-lg-2 border border-success" style="background-color: #213635">
+                <div class="col-sm-2 border border-success " style="background-color: #1c5052">
             
                     <?php
                     
-                        include_once("_lateralSesmet.php")
+                        include_once("_lateral.php")
 
                     ?>
             
                 </div>
 
                     <!-- Topo -->
-                <div class="col-lg-10 border border-danger" style="height: 770px;">
+                <div class="col-sm-10 border border-danger" style="height: 770px;">
 
                     <div class="row border border-success" style="height: 80px; background-color: white ">
 
                     <?php
                     
-                    include_once("_topoSesmet.php")
+                    include_once("_topo.php")
 
                     ?>
 
@@ -42,7 +42,7 @@
                     <div class="row border border-success" style="height: 660px; margin-top:20px; justify-content: center; text-align: center;
                     ">
 
-                        <div class="col-lg-11 border border-danger" style="height: 640px; margin-top: 5px; background-color: white ">
+                        <div class="col-sm-11 border border-danger" style="height: 640px; margin-top: 5px; background-color: white; ">
 
                             <?php
                         

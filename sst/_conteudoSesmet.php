@@ -4,27 +4,12 @@
     {
         if($_GET['tela']=='ordens')
         {
-            include_once('frmSesmet.php');
+            include_once('frmUsuario.php');
         }
 
-        else if($_GET['tela']=='funcionario')
+        else if($_GET['tela']=='cadUsuario')
         {
-            include_once('_funcionario.php');
-        }
-
-        else if($_GET['tela']=='produto')
-        {
-            include_once('frm_produto.php');
-        }
-
-        else if($_GET['tela']=='historico')
-        {
-            include_once('frm_historico.php');
-        }
-
-        else if($_GET['tela']=='sair')
-        {
-            include_once('_home.php');
+            include_once('frmUsuario.php');
         }
 
     }

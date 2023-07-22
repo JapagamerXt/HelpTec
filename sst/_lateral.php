@@ -22,25 +22,16 @@
         <!-- Menu -->
 
         <!--  -->
-        <a href="_sistema.php?tela=ordens" style="height: 40px; margin-top: 40px; text-decoration:none; color: white">
+        <a href="_sistema.php?tela=ordens1" style="height: 40px; margin-top: 40px; text-decoration:none; color: white">
             <div class="subMenu"><img src="img/prancheta.png" alt="" style="color:white; text-align:center; ">
              Ordens</div>
         </a>
 
-        <!-- <a href="_sistemaSesmet.php?tela=funcionario" style="height: 40px;  text-decoration:none; color: white">
-            <div class="subMenu"><img src="img/func.png" alt="" style="color:white; text-align:center; ">
-             Funcionários</div>
+        <a href="_site.php" style="height: 40px; margin-top: 5px; text-decoration:none; color: white">
+            <div class="subMenu"><img src="img/poder.png" alt="" style="color:white; text-align:center; ">
+             Sair</div>
         </a>
 
-        <a href="_sistemaSesmet.php" style="height: 40px;  text-decoration:none; color: white">
-            <div class="subMenu"><img src="img/losango.png" alt="" style="color:white; text-align:center; ">
-             NRS</div>
-        </a>
-
-        <a href="_sistemaSesmet.php" style="height: 40px;  text-decoration:none; color: white">
-            <div class="subMenu"><img src="img/historia.png" alt="" style="color:white; text-align:center; ">
-             Histórico</div>
-        </a> -->
 
     </div>
     
