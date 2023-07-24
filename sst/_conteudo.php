@@ -2,30 +2,38 @@
 <?php
     if(isset($_GET['tela']))
     {
+
+        if($_GET['tela']=='ordens1')
+        {
+            include_once('ordens1.php');
+        }
+
         if($_GET['tela']=='ordens')
         {
             include_once('frmSesmet.php');
         }
 
-        else if($_GET['tela']=='funcionario')
+        else if($_GET['tela']=='cadUsuario')
         {
-            include_once('_funcionario.php');
+            include_once('frmUsuario.php');
         }
 
-        else if($_GET['tela']=='produto')
+        else if($_GET['tela']=='cadSesmet')
         {
-            include_once('frm_produto.php');
+            include_once('frmSesmet.php');
         }
 
-        else if($_GET['tela']=='historico')
+
+        else if($_GET['tela']=='Nr10')
         {
-            include_once('frm_historico.php');
+            include_once('frmNr10.php');
         }
 
-        else if($_GET['tela']=='sair')
+        else if($_GET['tela']=='Nr33')
         {
-            include_once('_home.php');
+            include_once('frmNr10.php');
         }
+
 
     }
 

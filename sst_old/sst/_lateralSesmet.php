@@ -13,7 +13,7 @@
     <div class="row border border-danger ">
 
         <!-- Logo -->
-        <div class="col-lg-12 border border-danger" style="height: 80px; margin-top: 20px; text-align: center;">
+        <div class="col-sm-12 border border-danger" style="height: 80px; margin-top: 20px; text-align: center;">
     
             <img src="img/logo2.png" alt="">
     
@@ -27,25 +27,20 @@
              Ordens</div>
         </a>
 
-        <a href="_sistemaSesmet.php?tela=cadUsuario" style="height: 40px; margin-top: 5px; text-decoration:none; color: white">
+        <!-- <a href="_sistema.php?tela=funcionario" style="height: 40px;  text-decoration:none; color: white">
             <div class="subMenu"><img src="img/func.png" alt="" style="color:white; text-align:center; ">
-             Cadastro Usuário</div>
+             Funcionários</div>
         </a>
 
-        <a href="_sistemaSesmet.php?tela=cadSesmet" style="height: 40px; margin-top: 5px; text-decoration:none; color: white">
-            <div class="subMenu"><img src="img/user.png" alt="" style="color:white; text-align:center; ">
-             Cadastro Sesmet</div>
-        </a>
-    
-        <a href="_sistemaSesmet.php?tela=Nr10" style="height: 40px; margin-top: 5px; text-decoration:none; color: white">
+        <a href="_sistema.php" style="height: 40px;  text-decoration:none; color: white">
             <div class="subMenu"><img src="img/losango.png" alt="" style="color:white; text-align:center; ">
-             Cadastrar Nr10</div>
+             NRS</div>
         </a>
 
-        <a href="_site.php" style="height: 40px; margin-top: 5px; text-decoration:none; color: white">
-            <div class="subMenu"><img src="img/poder.png" alt="" style="color:white; text-align:center; ">
-             Sair</div>
-        </a>
+        <a href="_sistema.php" style="height: 40px;  text-decoration:none; color: white">
+            <div class="subMenu"><img src="img/historia.png" alt="" style="color:white; text-align:center; ">
+             Histórico</div>
+        </a> -->
 
     </div>
     

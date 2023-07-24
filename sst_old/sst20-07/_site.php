@@ -44,7 +44,7 @@
 
             <!-- Quem Somos -->
             <div class="col-sm-2 border border-danger"></div>
-            <div class="col-sm-1 border border-danger"><h6 style="color: white; margin-top: 40px">Fale conosco</h6 ></div>
+            <div class="col-sm-1 border border-danger"><h6 style="color: white; margin-top: 40px">Fale c    onosco</h6 ></div>
             <div class="col-sm-1 border border-danger"><h6 style="color: white; margin-top: 40px">Sobre nós</h6 ></div>
             <div class="col-sm-1 border border-danger"><h6 style="color: white; margin-top: 40px">Serviços</h6 ></div>
             <div class="col-sm-1 border border-danger"></div>   

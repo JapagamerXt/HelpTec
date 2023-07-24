@@ -1,0 +1,16 @@
+Funcionário -
+Ordens 
+
+Sesmet -
+Cadastrar Usuario 
+Cadastrar sesmet
+Abrir ordem 
+Histórico 
+
+Sesmet abre a ordem 
+Funcionário recebe 
+Preenche a NR
+Manda para o Sesmet 
+Aprova ou não 
+Manda para o funcionário a 
+aprovação - manda para o funcionário 
