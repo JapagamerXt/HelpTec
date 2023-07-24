@@ -1,7 +1,7 @@
 <?php
 
 $bd = 'tst';
-$host = '10.37.47.25';
+$host = 'Localhost';
 $user = 'root';
 $pass = '';
 

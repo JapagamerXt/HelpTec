@@ -1,20 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <title>Respostas</title>
+    <title>Document</title>
 </head>
 <body>
-    <div class="container form-control">
-        <table class='table table-hover'>
+<div class="container form-control">
+        <table class='table table-hover text-center'>
             <thead>
                 <tr>
-                    <th scope='col'>1</th>
-                    <th scope='col'>2</th>
-                    <th scope='col'>3</th>
+                    <th scope='col'>ID</th>
+                    <th scope='col'>ID PET</th>
+                    <th scope='col'>ID Ordem de serviço</th>
                     <th scope='col'>4</th>
                     <th scope='col'>5</th>
                     <th scope='col'>6</th>
@@ -25,8 +24,11 @@
                     <th scope='col'>11</th>
                     <th scope='col'>12</th>
                     <th scope='col'>13</th>
-                    <th scope='col'>14</th>
-                    <th scope='col'>15</th>
+                    <th scope='col'> Nome do supervisor responsavel</th>
+                    <th scope='col'>Liberação do supervisor</th>
+                    <th scope='col'>Foto</th>
+                    <th scope='col'>Status</th>
+                    <th scope='col'>Observação</th>
                 </tr>
             </thead>
 
@@ -34,7 +36,7 @@
                 <?php 
                     include_once("conexao.php");
                     try {
-                        $sql = $conn->query('select* from Nr_10 where Id_Nr10');
+                        $sql = $conn->query('select* from Nr_33 where Id_Nr33');
                         if ($sql->rowCount()>=1) {
                         foreach ($sql as $row) {
                             echo "<tr>";
@@ -53,6 +55,9 @@
                             echo " <th scope='row'>$row[12]</th>";
                             echo " <th scope='row'>$row[13]</th>";
                             echo " <th scope='row'>$row[14]</th>";
+                            echo " <th scope='row'>$row[15]</th>";
+                            echo " <th scope='row'>$row[16]</th>";
+                            echo " <th scope='row'>$row[18]</th>";
                             echo "</tr>";
                         }
                         }
@@ -68,6 +73,5 @@
     </div>
                    
     <script src="../js/bootstrap.js"></script>
-    
 </body>
 </html>
