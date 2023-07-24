@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <form method="post">
+    <form method="post" enctype="multipart/form-data">
         <div class="container form-control">
             <div class="row">
                 <div class="col-sm-2">
@@ -83,7 +83,7 @@
 
             <div class="row mt-2">
                 <div class="col-sm-2">
-                    <button class="form-control" formaction="Cadastro_Sesmet.php">Cadastro</button>
+                    <button class="form-control" name="Cadastro" formaction="Cadastro_Sesmet.php">Cadastro</button>
                 </div> 
 
                 <div class="col-sm-2">

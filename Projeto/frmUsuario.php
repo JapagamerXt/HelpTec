@@ -14,15 +14,12 @@
             </div>
         </div>
     </div>
-    <form method="post" action="">
+    <form method="post" action="" enctype="multipart/form-data">
         <div class="container form-control">
             <div class="row">
                 <div class="col-sm-2">
                     <input type="numero" name="txtID" id="txtID" placeholder="ID" class="form-control">
                 </div>
-                <!-- <div class="col-sm-1" class= "form-control">
-                 <button formaction="frm_Usuario.php" class="btn btn-primary" name="btoPesquisar" id="btoPequisar">&#128269;</button>
-                </div> -->
             </div>
 
             <div class="row mt-3">
@@ -55,6 +52,7 @@
                 <div class="col-sm-3">
                     <label for="Login">Login</label>
                     <input type="texto" name="txtlogin" id="txtlogin" placeholder="login" class="form-control">
+
                 </div>
 
                 <div class="col-sm-3">
@@ -74,6 +72,7 @@
                 <div class="col-sm-3">
                     <label for="img">Imagem</label>
                     <input type="file" name="txtimg" id="txtimg" placeholder="Imagem" class="form-control">
+
                 </div>
 
             </div>
@@ -86,7 +85,7 @@
 
             <div class="row mt-2">
                 <div class="col-sm-2">
-                    <button class="form-control" formaction="CadastroUsuario.php">Cadastro</button>
+                    <button class="form-control" name="cadastro" formaction="CadastroUsuario.php">Cadastro</button>
                 </div> 
 
                 <div class="col-sm-2">
@@ -101,9 +100,12 @@
                     <button class="form-control">Sair</button>
                 </div>
             </div>
-
-        </div>
+        </div>        
     </form>  
+    <?php 
+     
+      
+    ?>
 
 
     <script>"../js/bootstrap.js"</script>

@@ -106,6 +106,33 @@ print_r($_POST);
     {
         header('Location:frmNr33.php');
     }
+    if (isset($_POST['Enviar'])) 
+    {           
+        if ($_FILES['txtimg']['type'] == 'image/png') 
+        {
+            $nome_arquivo = md5( $_FILES['txtimg']['name'].rand(1,999)).'png';
+            if (isset($_FILES['txtimg'])) 
+            {
+                move_uploaded_file($_FILES['txtimg']['tmp_name'],'Imagem Nr33/'.$nome_arquivo);
+                echo 'Imagem salva com sucesso!';                
+            }
+  
+            elseif ($_FILES['txtimg']['type'] == 'image/jpg') 
+            {
+                $nome_arquivo = md5( $_FILES['txtimg']['name'].rand(1,999)).'jpg';
+                if (isset($_FILES['txtimg'])) 
+                {
+                    move_uploaded_file($_FILES['txtimg']['tmp_name'],'Imagem Nr33/'.$nome_arquivo);
+                    echo 'Imagem salva com sucesso!';                
+                }
+            } 
+            else 
+            {
+                echo 'Erro ao cadastrar a imagem. Porfavor converter em png ou jpg!';
+            }
+        }
+        
+    }
 
 ?>
 <hr>

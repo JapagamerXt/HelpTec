@@ -8,25 +8,25 @@
     <title>Respostas</title>
 </head>
 <body>
-    <div class="container form-control">
-        <table class='table table-hover'>
+   
+        <table class='table table-hover text-nowrap'>
             <thead>
                 <tr>
-                    <th scope='col'>1</th>
-                    <th scope='col'>2</th>
-                    <th scope='col'>3</th>
-                    <th scope='col'>4</th>
-                    <th scope='col'>5</th>
-                    <th scope='col'>6</th>
-                    <th scope='col'>7</th>
-                    <th scope='col'>8</th>
-                    <th scope='col'>9</th>
-                    <th scope='col'>10</th>
-                    <th scope='col'>11</th>
-                    <th scope='col'>12</th>
-                    <th scope='col'>13</th>
-                    <th scope='col'>14</th>
-                    <th scope='col'>15</th>
+                    <th scope='col'>#</th>
+                    <th scope='col'>ID APR</th>
+                    <th scope='col'>ID Ordem de serviço</th>
+                    <th scope='col'>1. Se encontra em condição física, mental e emocional para realizar sua função na tarefa?</th>
+                    <th scope='col'>2.Seu tablet e/ou celular está em boas condições de uso e operação?</th>
+                    <th scope='col'>3. O veículo encontra-se em boas condições de utilização? Pneus, direção, suspenção, freio, lataria, sinalizações?</th>
+                    <th scope='col'>4. O veículo está em local seguro? Estacionado corretamente?</th>
+                    <th scope='col'>5. Os EPI(s), EPC(s) e ferramentas/equipamentos são adequados e estão em perfeito estado para execução da tarefa?</th>
+                    <th scope='col'>6. Foi verificado a inexistência de cães na residência? Respeitada a distância segura dos portões?</th>
+                    <th scope='col'>7. Foram analisadas as condições do terreno pertencente à área de trabalho (obstáculos, desníveis e erosões)?</th>
+                    <th scope='col'>Supervisor</th>
+                    <th scope='col'>Liberação do dupervisor</th>
+                    <th scope='col'>Sertificado</th>
+                    <th scope='col'>Observação</th>
+                    <th scope='col'>Status</th>
                 </tr>
             </thead>
 

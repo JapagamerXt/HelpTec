@@ -9,26 +9,17 @@
 </head>
 
 <body onload="esconder()">
-    <form action="" method="post" onsubmit="return false" id="frmFormulario" name="frmFormulario">
-        <div class="container form-control">
-            <div class="row">
-                <div class="col-sm-4 ">
-                    <input type="texto" name="txtIDNr10" id="txtIDNr10" placeholder="IDNr10" class="form-control">
-                </div>
-
-            </div>
-            <hr>
-
+    <form action="" method="post" onsubmit="return false" id="frmFormulario" name="frmFormulario" enctype="multipart/form-data">
+        <div class="container form-control mt-lg-5">
             <div class="row mt-3">
                 <div class="col-sm-12">
                     <p class="h1 text-center font">NR10</p>
                 </div>
             </div>
 
-
             <div class="row " id="P1" name="P1">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Pergunta 01</b></p>
+                    <p><b>1. Se encontra em condição física, mental e emocional para realizar sua função na tarefa?</b></p>
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" id="bto01" name="bto01">
@@ -40,7 +31,7 @@
                         <label for="bto01N" class="form-chek-lable me-5">
                             NÃO
                         </label>
-                        <input type="radio" class="form-chek-input" name="txt01" id="bto01ND" value="N/D">
+                        <input type="radio" class="form-chek-input" name="txt01" id="bto01NA" value="N/A">
                         <label for="bto01ND" class="form-chek-lable me-5">
                             N/D
                         </label>
@@ -58,7 +49,7 @@
 
             <div class="row " id="P2" name="P2">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 02</b></p>
+                    <p><b>2.Seu tablet e/ou celular está em boas condições de uso e operação?</b></p>
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" id="bto02" name="bto02">
@@ -90,7 +81,7 @@
 
             <div class="row " id="P3" name="P3">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 03</b></p>
+                    <p><b>3. O veículo encontra-se em boas condições de utilização? Pneus, direção, suspenção, freio, lataria, sinalizações? </b></p>
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" id="bto03" name="Rbto03">
@@ -122,7 +113,7 @@
 
             <div class="row " id="P4" name="P4">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 04</b></p>
+                    <p><b>4. O veículo está em local seguro? Estacionado corretamente?</b></p>
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" id="bto04" name="bto04">
@@ -154,7 +145,7 @@
 
             <div class="row " id="P5" name="P5">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 05</b></p>
+                    <p><b>5. Os EPI(s), EPC(s) e ferramentas/equipamentos são adequados e estão em perfeito estado para execução da tarefa? </b></p>
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" id="bto05" name="bto05">
@@ -186,7 +177,7 @@
 
             <div class="row " id="P6" name="P6">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 06</b></p>
+                    <p><b>6. Foi verificado a inexistência de cães na residência? Respeitada a distância segura dos portões? </b></p>
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" id="bto06" name="bto06">
@@ -218,7 +209,7 @@
 
             <div class="row " id="P7" name="P7">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 07</b></p>
+                    <p><b>7. Foram analisadas as condições do terreno pertencente à área de trabalho (obstáculos, desníveis e erosões)? </b></p>
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" id="bto07" name="bto07">
@@ -257,7 +248,7 @@
                         <input type="texto" name="txtIdOsNr10" id="txtIdOsNr10" placeholder="IdOsNr10" class="form-control">
                     </div>
                     <div class="col-sm-4 mt-2" id="Supervisor" name="Supervisor">
-                        <input type="text" id="txtSuper" name="txtSuper" placeholder="Nome do responsavel"  class="form-control" required>
+                        <input type="text" id="txtSuper" name="txtSuper" placeholder="Nome do responsavel" class="form-control" required>
                     </div>
                 </div>
 
@@ -279,15 +270,10 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-3">
-                    <label for="img">Imagem</label>
-                    <input type="file" name="txtimg" id="txtimg" placeholder="Imagem" class="form-control">
-                </div>
                 <hr>
-
                 <div class="row">
-                    <div class="col-sm-3">
+
+                    <div class="col-sm-4 border-border-dark">
                         <label for="status">Status</label>
                         <select name="txtselect" id="txtselect" class="form-control">
                             <option value=""> -- Selecione -- </option>
@@ -295,7 +281,13 @@
                             <option value="Desativado">Desativado</option>
                         </select>
                     </div>
-                    <div class="col-sm-9">
+
+                    <div class="col-sm-4">
+                        <label for="img">Imagem</label>
+                        <input type="file" name="txtimg" id="txtimg" placeholder="Imagem" class="form-control">
+                    </div>
+
+                    <div class="col-sm-4">
                         <label for="OBS">OBS</label>
                         <textarea name="txtObs" id="txtObs" cols="15" rows="5" class="form-control"></textarea>
                     </div>
@@ -308,7 +300,7 @@
                         <button onclick="Per7()" class="form-control btn-outline-danger bto">Voltar</button>
                     </div>
                     <div class="col-sm-1">
-                        <button onclick="enviarCa()" class="form-control btn-outline-success bto">Enviar</button>
+                        <button onclick="enviarCa()" name="Enviar" class="form-control btn-outline-success bto">Enviar</button>
                     </div>
                 </div>
             </div>

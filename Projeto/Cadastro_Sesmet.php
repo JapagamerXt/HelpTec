@@ -10,7 +10,7 @@
         $login = $_POST['txtlogin'];
         $senha = $_POST['txtsenha'];
         $status = $_POST['txtstatus'];
-        $imagem = $_POST['txtimg'];
+        $imagem = $_FILES['txtimg'];
         $Obs = $_POST['txtObs'];
 
         try 
@@ -69,6 +69,34 @@
     else
     {
         header('Location:frmSesmet.php');
+    }
+
+    if (isset($_POST['Cadastro'])) 
+    {           
+        if ($_FILES['txtimg']['type'] == 'image/png') 
+        {
+            $nome_arquivo = md5( $_FILES['txtimg']['name'].rand(1,999)).'png';
+            if (isset($_FILES['txtimg'])) 
+            {
+                move_uploaded_file($_FILES['txtimg']['tmp_name'],'Imagem Sesmet/'.$nome_arquivo);
+                echo 'Imagem salva com sucesso!';                
+            }
+
+            elseif ($_FILES['txtimg']['type'] == 'image/jpg') 
+            {
+                $nome_arquivo = md5( $_FILES['txtimg']['name'].rand(1,999)).'jpg';
+                if (isset($_FILES['txtimg'])) 
+                {
+                    move_uploaded_file($_FILES['txtimg']['tmp_name'],'Imagem Sesmet/'.$nome_arquivo);
+                    echo 'Imagem salva com sucesso!';                
+                }
+            } 
+            else 
+            {
+                echo 'Erro ao cadastrar a imagem. Porfavor converter em png ou jpg!';
+            }
+        }
+        
     }
 ?>
 <hr>

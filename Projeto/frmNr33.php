@@ -9,7 +9,7 @@
 </head>
 
 <body onload="esconder()">
-    <form action="" method="post" onsubmit="return false" name="frmFormularioNr33" id="frmFormularioNr33">
+    <form action="" method="post" onsubmit="return false" name="frmFormularioNr33" id="frmFormularioNr33" enctype="multipart/form-data">
         <div class="container form-control mt-lg-5">
 
 
@@ -23,7 +23,7 @@
             <div class="row " id="P1">
 
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Pergunta 01</b></p>
+                    <p><b>1. Isolamento ?</b></p>
                 </div>
                 <div class="row text-center" name="bto01" id="bto01">
                     <div class="form-chek">
@@ -53,7 +53,7 @@
 
             <div class="row " id="P2">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 02</b></p>
+                    <p><b>2. Teste inicial da atmosfera ?</b></p>
                 </div>
                 <div class="row text-center" name="bto02" id="bto02">
                     <div class="form-chek">
@@ -85,7 +85,7 @@
 
             <div class="row " id="P3">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 03</b></p>
+                    <p><b>3. Bloqueios, travamento e etiquetagem ?</b></p>
                 </div>
                 <div class="row text-center" name="bto03" id="bto03">
                     <div class="form-chek">
@@ -117,7 +117,7 @@
 
             <div class="row " id="P4">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 04</b></p>
+                    <p><b>4. Purga e/ou lavagem ?</b></p>
                 </div>
                 <div class="row text-center" name="bto04" id="bto04">
                     <div class="form-chek">
@@ -149,7 +149,7 @@
 
             <div class="row " id="P5">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 05</b></p>
+                    <p><b>5. Ventilação/exaustão – tipo, equipamento e tempo ?</b></p>
                 </div>
                 <div class="row text-center" name="bto05" id="bto05">
                     <div class="form-chek">
@@ -181,7 +181,7 @@
 
             <div class="row " id="P6">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 05</b></p>
+                    <p><b>6. Teste após ventilação e isolamento ?</b></p>
                 </div>
                 <div class="row text-center" name="bto06" id="bto06">
                     <div class="form-chek">
@@ -213,7 +213,7 @@
 
             <div class="row " id="P7">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 05</b></p>
+                    <p><b>7. Iluminação geral ?</b></p>
                 </div>
                 <div class="row text-center" name="bto07" id="bto07">
                     <div class="form-chek">
@@ -245,7 +245,7 @@
 
             <div class="row " id="P8">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 05</b></p>
+                    <p><b>8. Procedimentos de comunicação ?</b></p>
                 </div>
                 <div class="row text-center" name="bto08" id="bto08">
                     <div class="form-chek">
@@ -277,7 +277,7 @@
 
             <div class="row " id="P9">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 09</b></p>
+                    <p><b>9. Procedimentos de resgate ?</b></p>
                 </div>
                 <div class="row text-center">
                     <div class="form-chek" name="bto09" id="bto09">
@@ -309,7 +309,7 @@
 
             <div class="row " id="P10">
                 <div class="col-sm-12 text-center h3">
-                    <p><b>Top perguntas 10</b></p>
+                    <p><b>10. Procedimentos e proteção de movimentação vertical ?</b></p>
                 </div>
                 <div class="row text-center" name="bto10" id="bto10">
                     <div class="form-chek">
@@ -341,10 +341,10 @@
 
             <div class="row" id="P11" name="P11">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 mt-2">
                         <input type="texto" name="txtIdPETNr33" id="txtIdPETNr33" placeholder="IdPETNr33" class="form-control">
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 mt-2">
                         <input type="texto" name="txtIdOsNr33" id="txtIdOsNr33" placeholder="IdOsNr33" class="form-control">
                     </div>
                     <div class="col-sm-4 mt-2" id="Supervisor" name="Supervisor">
@@ -369,11 +369,7 @@
                         </label>
                     </div>
                 </div>
-
-                <div class="col-sm-3">
-                    <label for="img">Imagem</label>
-                    <input type="file" name="txtimg" id="txtimg" placeholder="Imagem" class="form-control">
-                </div>
+                <hr>
 
                 <div class="row">
                     <div class="col-sm-4 border-border-dark">
@@ -403,7 +399,7 @@
                         <button onclick="Per10()" class="form-control btn-outline-danger bto">Voltar</button>
                     </div>
                     <div class="col-sm-1">
-                        <button onclick="cadastrar()" class="form-control btn-outline-success bto">Enviar</button>
+                        <button onclick="cadastrar()" name="Enviar" class="form-control btn-outline-success bto">Enviar</button>
                     </div>
                 </div>
             </div>

@@ -7,28 +7,29 @@
     <title>Document</title>
 </head>
 <body>
-<div class="container form-control">
-        <table class='table table-hover text-center'>
+
+        <table class='table table-striped text-center text-nowrap'>
             <thead>
                 <tr>
-                    <th scope='col'>ID</th>
+                    <th scope='col'>#</th>
                     <th scope='col'>ID PET</th>
                     <th scope='col'>ID Ordem de serviço</th>
-                    <th scope='col'>4</th>
-                    <th scope='col'>5</th>
-                    <th scope='col'>6</th>
-                    <th scope='col'>7</th>
-                    <th scope='col'>8</th>
-                    <th scope='col'>9</th>
-                    <th scope='col'>10</th>
-                    <th scope='col'>11</th>
-                    <th scope='col'>12</th>
-                    <th scope='col'>13</th>
+                    <th scope='col'>1. Isolamento ?</th>
+                    <th scope='col'>2. Teste inicial da atmosfera ?</th>
+                    <th scope='col'>3. Bloqueios, travamento e etiquetagem ?</th>
+                    <th scope='col'>4. Purga e/ou lavagem ?</th>
+                    <th scope='col'>5. Ventilação/exaustão – tipo, equipamento e tempo ?</th>
+                    <th scope='col'>6. Teste após ventilação e isolamento ?</th>
+                    <th scope='col'>7. Iluminação geral ?</th>
+                    <th scope='col'>8. Procedimentos de comunicação ?</th>
+                    <th scope='col'>9. Procedimentos de resgate ?</th>
+                    <th scope='col'>10. Procedimentos e proteção de movimentação vertical ?</th>
                     <th scope='col'> Nome do supervisor responsavel</th>
                     <th scope='col'>Liberação do supervisor</th>
                     <th scope='col'>Foto</th>
-                    <th scope='col'>Status</th>
                     <th scope='col'>Observação</th>
+                    <th scope='col'>Status</th>
+                    
                 </tr>
             </thead>
 

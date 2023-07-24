@@ -10,7 +10,7 @@
         $login = $_POST['txtlogin'];
         $senha = $_POST['txtsenha'];
         $status = $_POST['txtselect'];
-        $imagem = $_POST['txtimg'];
+        $imagem = $_FILES['txtimg'];
         $Obs = $_POST['txtObs'];
 
         try 
@@ -65,10 +65,41 @@
         {
             echo $ex->getMessage();
         }
+
+       
+
     }
     else
     {
         header('Location:frmUsuario.php');
+    }
+
+    if (isset($_POST['cadastro'])) 
+    {           
+        if ($_FILES['txtimg']['type'] == 'image/png') 
+        {
+            $nome_arquivo = md5( $_FILES['txtimg']['name'].rand(1,999)).'png';
+            if (isset($_FILES['txtimg'])) 
+            {
+                move_uploaded_file($_FILES['txtimg']['tmp_name'],'Imagem Funcionario/'.$nome_arquivo);
+                echo 'Imagem salva com sucesso!';                
+            }
+
+            elseif ($_FILES['txtimg']['type'] == 'image/jpg') 
+            {
+                $nome_arquivo = md5( $_FILES['txtimg']['name'].rand(1,999)).'jpg';
+                if (isset($_FILES['txtimg'])) 
+                {
+                    move_uploaded_file($_FILES['txtimg']['tmp_name'],'Imagem Funcionario/'.$nome_arquivo);
+                    echo 'Imagem salva com sucesso!';                
+                }
+            } 
+            else 
+            {
+                echo 'Erro ao cadastrar a imagem. Porfavor converter em png ou jpg!';
+            }
+        }
+        
     }
 ?>
 <hr>
